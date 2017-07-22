@@ -6,3 +6,7 @@ https://stackoverflow.com/questions/8775850/how-do-i-add-files-and-folders-into-
 "git rm --cached filename" and then push changes to the remote repo. 
 https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo
 
+3. Remove directory from git and local:
+git rm -r one-of-the-directories
+git commit -m "Remove duplicated directory"
+git push origin <your-git-branch> (typically 'master', but not always)
