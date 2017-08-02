@@ -1,0 +1,7 @@
+1. 'rm file1' delete the file1;
+2. 'rm -rf folder1' delete the folder1;
+3. 'pwd' check current working directory;
+4. ‘sysctl -n hw.ncpu’ to chenk how many cores on mac;
+5. ‘ls -l’ to list the files in the current folder;
+6. ‘ps -ax’ to list every process running, along with additional details such as PID, the elapsed running and the process name and location.  
+7. ‘cat file1’ to read file1 from the terminal. 
