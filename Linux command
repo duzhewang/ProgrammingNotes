@@ -5,3 +5,4 @@
 5. ‘ls -l’ to list the files in the current folder;
 6. ‘ps -ax’ to list every process running, along with additional details such as PID, the elapsed running and the process name and location.  
 7. ‘cat file1’ to read file1 from the terminal. 
+8. 'scp -r sourcedirectory serverpath' to copy the directory, for example folder. 
