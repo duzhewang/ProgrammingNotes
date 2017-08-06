@@ -1,0 +1,14 @@
+\documentclass[11pt]{article}
+\title{My First Sweave Document}
+\author{Roger D. Peng}
+\begin{document}
+\maketitle
+\section{Introduction}
+This is some text (i.e. a ``text chunk'').   
+Here is a code chunk
+<<simulation,echo=false>>=
+set.seed(1)
+x <- rnorm(100)
+mean(x)
+@
+\end{document}

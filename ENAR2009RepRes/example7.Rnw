@@ -1,0 +1,18 @@
+\documentclass[11pt]{article}
+\begin{document}
+
+\section{Introduction}
+<<fitmodel>>=
+library(datasets)
+data(airquality)
+fit <- lm(Ozone ~ Wind + Temp + Solar.R, data = airquality)
+@
+
+Here is a table of regression coefficients.\\
+
+<<xtable,results=tex>>=
+library(xtable)
+xt <- xtable(summary(fit))
+print(xt)
+@
+\end{document}

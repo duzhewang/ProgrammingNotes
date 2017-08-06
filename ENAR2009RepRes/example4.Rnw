@@ -1,0 +1,11 @@
+\documentclass[11pt]{article}
+\begin{document}
+\section{Introduction}
+
+<<computetime,echo=false>>=
+time <- format(Sys.time(), "%a %b %d %X %Y")
+rand <- rnorm(1)
+@
+The current time is \Sexpr{time}. My favorite random
+number is \Sexpr{rand}.
+\end{document}

@@ -1,0 +1,13 @@
+\documentclass[11pt]{article}
+\title{My First Sweave Document}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+This is some text (i.e. a ``text chunk'').   
+Here is a code chunk but it doesn't print anything!
+<<simulation,echo=false,results=hide>>=
+x <- rnorm(100); y <- x + rnorm(100, sd = 0.5)
+mean(x)
+@
+\end{document}
