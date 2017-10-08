@@ -6,3 +6,64 @@
 6. ‘ps -ax’ to list every process running, along with additional details such as PID, the elapsed running and the process name and location.  
 7. ‘cat file1’ to read file1 from the terminal. 
 8. 'scp -r sourcedirectory serverpath' to copy the directory, for example folder. 
+
+
+###############################################
+1. pwd: print working directory
+2. hostname: my computer's network name
+3. cd <directory name>: change directory; cd ~: back to home; cd ..: go back to the previous directory. 
+4. ls: list directory
+5. rmdir <directory name>: remove the empty directory;
+   rm -rf <dir>: use this command line in Mac. 
+   rm <file name>: remove a file
+6. mkdir <directory name>: make directory
+7. pushd <firectory name>: push directory 
+8. popd: pop directory
+9. dirs: show the directory
+10. cp <source> <target>:copy a file or directory
+11. mv <source> <target>: move a file or directory
+12. less: page through a file. view a file. 
+    to get out of less, just type q. 
+13. cat <file name>: print the whole file. 
+14. xargs: execute arguments    ?
+15. find: find files ?
+16. grep: find things inside files
+17. man: read a manual page
+18. apropos: find what man page is appropriate
+19. env: look at your environment
+20. echo: print some arguments ?
+21. export: export/set a new environment variable  ?
+22. exit: exit the shell
+23. sudo: DANGER! become super user root DANGER  ?
+24. touch <file name>: make an empty file. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
