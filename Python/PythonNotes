@@ -11,6 +11,10 @@
 - How to install Python module?
   " sudo easy_install pip
     sudo pip install numpy "
+
+- print """work""": work
+
+
     
     
   
