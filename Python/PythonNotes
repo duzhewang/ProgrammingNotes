@@ -6,4 +6,12 @@
 1. check python version: 'python --version'
 2. run python in termmial: 'python'
    quit python in terminal: 'quit( )'
+   
+   
+- How to install Python module?
+  " sudo easy_install pip
+    sudo pip install numpy "
+    
+    
+  
 
