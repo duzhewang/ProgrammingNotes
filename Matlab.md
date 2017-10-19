@@ -11,5 +11,6 @@
 
 - whos -file filename.mat: View the contents of the file
 
--clf: clear current figure window. 
+- clf: clear current figure window. 
+- pwd: current working directoy. 
 
