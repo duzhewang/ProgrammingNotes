@@ -13,4 +13,5 @@
 
 - clf: clear current figure window. 
 - pwd: current working directoy. 
+- zeros(m,n): m*n zero matrix
 
