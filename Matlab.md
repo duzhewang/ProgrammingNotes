@@ -23,4 +23,18 @@
 - plot( x, y): plot 2d plots. 
 - title('plot'): add title
 - xlabel('...'), ylabel('...')
-- 
+
+## functions in matlab
+if expression
+    statements
+elseif expression
+    statements
+else
+    statements
+end
+
+
+
+
+
+
