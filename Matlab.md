@@ -16,6 +16,9 @@
 - zeros(m,n): m*n zero matrix
 - randperm(n) returns a row vector containing a random permutation of the integers from 1 to n inclusive.
 - rand(m,n): returns m*n standard normal. 
+- ifftshift:
+
+
 
 
 ## Plots using matlab
@@ -23,16 +26,6 @@
 - plot( x, y): plot 2d plots. 
 - title('plot'): add title
 - xlabel('...'), ylabel('...')
-
-## functions in matlab
-if expression
-    statements
-elseif expression
-    statements
-else
-    statements
-end
-
 
 
 
