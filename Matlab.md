@@ -17,6 +17,7 @@
 - randperm(n) returns a row vector containing a random permutation of the integers from 1 to n inclusive.
 - rand(m,n): returns m*n standard normal. 
 - ifftshift:
+- phantom(def, n): create a phantom image.
 
 
 
