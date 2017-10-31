@@ -18,7 +18,7 @@
 - rand(m,n): returns m*n standard normal. 
 - ifftshift:
 - phantom(def, n): create a phantom image.
-
+- mat(:) represents the vectorization of mat( which is a matrix). 
 
 
 
