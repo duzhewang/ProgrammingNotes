@@ -16,4 +16,25 @@ cvx_setup
 ## Examples-LP
 ```matlab
 maximize c^Tx
+subject to Ax=b
+           x>=0
 ```
+```matlab
+cvx_begin
+   variables x(n)
+   maximize(c'*x)
+   subject to
+      A*x==b
+      x>=0
+cvx_end
+```
+
+
+
+
+
+
+
+
+
+
