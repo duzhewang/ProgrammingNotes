@@ -13,3 +13,9 @@
 
 ### Getting started with SLURM
 - https://www.stat.wisc.edu/services/hpc-cluster1/users-guide-getting-started
+
+### SLURM commands
+- sbatch: submit bash script to the scheduler, 
+```R
+sbatch myScript.sh
+```
