@@ -33,3 +33,5 @@ sinfo
 ```
 scancel 12345678
 ```
+### Submit scripts
+- https://www.stat.wisc.edu/services/hpc-cluster1/users-guide-submitting-jobs
