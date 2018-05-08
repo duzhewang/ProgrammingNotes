@@ -15,7 +15,21 @@
 - https://www.stat.wisc.edu/services/hpc-cluster1/users-guide-getting-started
 
 ### SLURM commands
-- sbatch: submit bash script to the scheduler, 
+- sbatch: submit bash script to the scheduler.
 ```R
 sbatch myScript.sh
+```
+- srun: run a job interactively (not scheduled)
+```R
+srun -pty/bin/bach [script or App]
+```
+
+- sinfo: displays current node usage for each partition of the cluster
+```R
+sinfo
+```
+
+- scancel: cancel specific job ID number
+```
+scancel 12345678
 ```
