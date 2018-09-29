@@ -3,7 +3,7 @@
 3. cmd+o: open a file
 4. cmd+s: save a file
 5. display the side bar on atom: click view, then click Toggle Tree View. 
-
+6. open the setting: command+shift+b, then type setting
 
 *********************************
 Latex
