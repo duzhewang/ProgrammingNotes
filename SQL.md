@@ -12,9 +12,10 @@ SQL(Structured Query Language) tutorial
 
 ``select * from table_name``: select all from the table. 
 
+- SELECT DISTINCT: select distinct values from columns
+``SELECT DISTINCT column1, column2, ...FROM table_name;``
 
-
-
+``SELECT COUNT(DISTINCT column1) FROM table_name;`` lists the number of different (distinct) customer countries
 
 
 UPDATE - updates data in a database
