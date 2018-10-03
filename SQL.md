@@ -7,7 +7,9 @@ SQL(Structured Query Language) tutorial
 
 *****************************************************
 - SELECT: extracts data from a database
+
 ``select column1, column2 from table_name ``: select column1 and column2 from the table. 
+
 ``select * from table_name``: select all from the table. 
 
 
