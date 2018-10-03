@@ -1,3 +1,2 @@
-SQL tutorial
-
+SQL(Structured Query Language) tutorial
 
