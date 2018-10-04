@@ -15,7 +15,7 @@ SQL(Structured Query Language) tutorial
 - SELECT DISTINCT: select distinct values from columns
 ``SELECT DISTINCT column1, column2, ...FROM table_name;``
 
-``SELECT COUNT(DISTINCT column1) FROM table_name;`` lists the number of different (distinct) customer countries
+``SELECT COUNT(DISTINCT column1) FROM table_name;`` lists the number of different (distinct) values in column1
 
 
 UPDATE - updates data in a database
