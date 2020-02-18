@@ -1,6 +1,6 @@
 - how to stop a python program in terminal? 
   use control+c. 
-
+- use **exit(0)** to make the program abort. (see ex35 in LP3THW)
 
 
 
