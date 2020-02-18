@@ -2,7 +2,7 @@
   use control+c. 
 - use **exit(0)** to make the program abort. (see ex35 in LP3THW)
 - use **command+/** to comment or uncomment python scripts 
-
+- Python uses **indentation** to indicate a block of code.
 
 
 The following materials are from Scipy Lecture notes when I learn Pyhton myslef. 
