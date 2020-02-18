@@ -1,3 +1,16 @@
+- how to stop a python program in terminal?
+  use control+c. 
+
+
+
+
+
+
+
+
+
+
+
 The following materials are from Scipy Lecture notes when I learn Pyhton myslef. 
 
 -Python is a **programming language**, some features are:
