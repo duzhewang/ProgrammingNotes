@@ -44,6 +44,12 @@ print(random.randrange(1,10)) # display a random number between 1 and 9
 a = " Hello, World! "
 print(a.strip()) # returns "Hello, World!"
 ```
+- The lower() method returns the string in lower case. The upper() method returns the string in upper case. 
+
+
+
+
+
 
 
 
