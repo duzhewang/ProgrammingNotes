@@ -45,8 +45,7 @@ a = " Hello, World! "
 print(a.strip()) # returns "Hello, World!"
 ```
 - The lower() method returns the string in lower case. The upper() method returns the string in upper case. 
-
-
+- [More on strings](https://www.w3schools.com/python/python_strings.asp)
 
 
 
