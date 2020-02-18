@@ -32,7 +32,12 @@ print("Python is " + x)
 
 - [Difference between lists and tuples](https://www.afternerd.com/blog/difference-between-list-tuple/)
 
+- Random numbers: Python does not have a random() function to make a random number, but Python has a built-in module called **random** that can be used to make random numbers:
 
+```
+import random
+print(random.randrange(1,10)) # display a random number between 1 and 9
+```
 
 
 The following materials are from Scipy Lecture notes when I learn Pyhton myslef. 
