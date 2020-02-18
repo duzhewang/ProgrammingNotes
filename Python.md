@@ -30,7 +30,7 @@ print("Python is " + x)
   - Boolean Type:	bool 
   - Binary Types:	bytes, bytearray, memoryview
 
-- [https://www.afternerd.com/blog/difference-between-list-tuple/](diff)
+- [Difference between lists and tuples](https://www.afternerd.com/blog/difference-between-list-tuple/)
 
 
 
