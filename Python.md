@@ -9,6 +9,24 @@
   - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )  
   - Variable names are case-sensitive (age, Age and AGE are three different variables)
 
+- The global keyword: Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function. To create a global variable inside a function, you can use the global keyword.
+
+```
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+```
+
+
+
+
+
+
+
 
 The following materials are from Scipy Lecture notes when I learn Pyhton myslef. 
 
