@@ -1,4 +1,5 @@
 - how to stop a python program in terminal?
+
   use control+c. 
 
 
