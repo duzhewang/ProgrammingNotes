@@ -50,7 +50,21 @@ print(a.strip()) # returns "Hello, World!"
 - Note on class: 
   - https://www.w3schools.com/python/python_classes.asp
   - https://www.hackerearth.com/zh/practice/python/object-oriented-programming/classes-and-objects-i/tutorial/
-    
+  - example:
+  ```
+class Person:
+  def __init__(self, name, age):
+    self.name = name # define attributes
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+p1.myfunc()
+ 
+```  
+  
   
 
 
