@@ -50,7 +50,7 @@ print(a.strip()) # returns "Hello, World!"
 - Note on class: 
   - https://www.w3schools.com/python/python_classes.asp
   - https://www.hackerearth.com/zh/practice/python/object-oriented-programming/classes-and-objects-i/tutorial/
-  - **__init__**: two underscores in each side   
+    
   
 
 
