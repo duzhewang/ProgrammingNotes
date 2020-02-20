@@ -1,3 +1,18 @@
+## Python Packages 
+- install: in terminal, type: 
+```
+python3 -m pip install packagename
+```
+- upgrade: 
+```
+python3 -m pip install packagename -upgrade
+```
+- check what packages are installed in my laptop: 
+```
+  python3 -m pip freeze
+```
+
+
 - how to stop a python program in terminal? 
   use control+c. 
 - use **exit(0)** to make the program abort. (see ex35 in LP3THW)
