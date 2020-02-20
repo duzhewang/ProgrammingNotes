@@ -98,7 +98,6 @@ print(a.strip()) # returns "Hello, World!"
 ```  
 
 
-
   
   
   
