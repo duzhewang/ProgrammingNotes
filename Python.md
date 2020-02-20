@@ -22,10 +22,11 @@ python3 -m pip install jupyter notebook
   ```
   cd workingdirectory
   ```
- - step 2: launch jupyter notebook
- ```
- jupyter notebook
- ```
+ 
+  - step 2: launch jupyter notebook
+  ```
+  jupyter notebook
+  ```
  
  
 
