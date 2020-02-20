@@ -30,7 +30,7 @@ python3 -m pip install jupyter notebook
  
  
 
-## Python Notes
+## Python General Notes
 
 - how to stop a python program in terminal? 
   use control+c. 
@@ -98,7 +98,9 @@ print(a.strip()) # returns "Hello, World!"
 ```  
 
 
-  
+## Numpy 
+
+- numpy.where(condition, x, y): if condition is true, then x, otherwise y. 
   
   
   
