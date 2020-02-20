@@ -12,6 +12,7 @@ python3 -m pip install packagename -upgrade
   python3 -m pip freeze
 ```
 
+## Python Notes
 
 - how to stop a python program in terminal? 
   use control+c. 
