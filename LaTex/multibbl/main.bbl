@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{ArtCompProg2:1998}
+Donald~E. Knuth.
+\newblock {\em The art of computer programming}, volume 2: Seminumerical
+  algorithms.
+\newblock Addison-Wesley, Reading, Mass., 3 edition, 1998.
+
+\bibitem{ArtCompProg3:2004}
+Donald~E. Knuth.
+\newblock {\em The art of computer programming}, volume 3: Sorting and
+  searching.
+\newblock Addison-Wesley, Reading, Mass., 2 edition, 2004.
+
+\bibitem{ArtCompProg1:2011}
+Donald~E. Knuth.
+\newblock {\em The art of computer programming}, volume 1: Fundamental
+  algorithms.
+\newblock Addison-Wesley, Reading, Mass., 3 edition, 2011.
+
+\end{thebibliography}

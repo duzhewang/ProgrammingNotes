@@ -1,0 +1,6 @@
+\usepackage{graphicx}
+\begin{figure}[h!]
+\caption{...}
+\includegraphics[width=8cm]{...}
+\centering
+\end{figure}

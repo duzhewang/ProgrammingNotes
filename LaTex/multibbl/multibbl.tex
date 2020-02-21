@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{multibbl}
+\usepackage{hyperref}
+ 
+\newbibliography{main}
+\newbibliography{appendix}
+ 
+\title{A Document With Two Bibliographies}
+\author{The Unreasonable Man}
+ 
+\begin{document}
+  % \maketitle
+   %\tableofcontents
+ 
+   \section{The Art of Computer Programming}
+   You can look this up in Knuth's famous books
+   \cite{main}{ArtCompProg1:2011,ArtCompProg2:1998,ArtCompProg3:2004}.
+ 
+   \bibliographystyle{main}{plain}
+   \bibliography{main}{literature}{References}
+ 
+   \appendix
+   \section{Note on Sorting and Searching}
+   Well, have a look at the book mentioned before \cite{appendix}{ArtCompProg3:2004}.
+ 
+   \bibliographystyle{appendix}{plain}
+   \bibliography{appendix}{literature}{References}
+ 
+\end{document}

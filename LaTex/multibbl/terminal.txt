@@ -1,0 +1,4 @@
+pdflatex multibbl
+bibtex main
+bibtex appendix
+pdflatex multi bbl

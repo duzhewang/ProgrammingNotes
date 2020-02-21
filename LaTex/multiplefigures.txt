@@ -1,0 +1,21 @@
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\begin{figure}
+    \centering
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{file name} 
+        \caption{Generic} \label{fig:timing1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{file name} 
+        \caption{Competitors} \label{fig:timing2}
+    \end{subfigure}
+\caption{...}
+\end{figure}
+
+
+
