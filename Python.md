@@ -104,7 +104,11 @@ print(a.strip()) # returns "Hello, World!"
   n = int(input())
   print([[i, j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if ((i+j+k)!=n)])
   ```
-  
+- keep 2 decimal places 
+```
+a=13.946
+print("%.2f"% a)
+```
   
   
 
