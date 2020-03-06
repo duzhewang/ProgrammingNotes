@@ -38,8 +38,9 @@
      VALUES (value1, value2, value3, ...);  
   ``
   
-  
-  
+- Null: 
+  - ``SELECT column_names FROM table_name WHERE column_name IS NULL; ``
+
   
   
 - UPDATE - updates data in a database
