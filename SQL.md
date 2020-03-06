@@ -40,10 +40,12 @@
   
 - Null: 
   - ``SELECT column_names FROM table_name WHERE column_name IS NULL; ``
+  
+  
+- UPDATE: the UPDATE statement is used to modify the existing records in a table.
+  ``UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;''
 
-  
-  
-- UPDATE - updates data in a database
+
 
 - DELETE - deletes data from a database
 
