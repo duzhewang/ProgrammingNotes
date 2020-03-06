@@ -79,20 +79,11 @@
 - Aliases: SQL aliases are used to give a table, or a column in a table, a temporary name. Aliases are often used to make column names more readable. An alias only exists for the duration of the query.  
   ``SELECT column_name AS alias_name FROM table_name;``  
   
-  
-- CREATE DATABASE - creates a new database
+- Left join, Right join, Inner join, Full join: https://www.w3schools.com/sql/sql_join.asp
 
-- ALTER DATABASE - modifies a database
-
-- CREATE TABLE - creates a new table
-
-- ALTER TABLE - modifies a table
-
-- DROP TABLE - deletes a table
-
-- CREATE INDEX - creates an index (search key)
-
-- DROP INDEX - deletes an index
+- Comments: 
+  - Single-line comments: Single line comments start with --. Any text between -- and the end of the line will be ignored (will not be executed).  
+  - Multiple-line comments: Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored.
 
 
 
