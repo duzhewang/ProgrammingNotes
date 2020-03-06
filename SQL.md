@@ -14,8 +14,8 @@
    - ``SELECT DISTINCT column_name FROM table_name;``
 
 - SELECT COUNT: count the number 
-  - ``SELECT COUNT(DISTINCT column1) FROM table_name;`` lists the number of different (distinct) values in column1
-  - "SELECT COUNT (column1) FROM table_name": count the total numebr
+  - ``SELECT COUNT(DISTINCT column1) FROM table_name``: lists the number of different (distinct) values in column1
+  - ``SELECT COUNT (column1) FROM table_name``: count the total numebr
 
 
 - UPDATE - updates data in a database
