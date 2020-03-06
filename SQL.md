@@ -49,7 +49,10 @@
   - ``DELETE FROM table_name WHERE condition;``
   - ``DELETE FROM table_name;``
 
-- INSERT INTO - inserts new data into a database
+- Select Top: select the top number of records 
+   `` SELECT TOP number column_name(s) FROM table_name WHERE condition;``
+
+
 
 - CREATE DATABASE - creates a new database
 
