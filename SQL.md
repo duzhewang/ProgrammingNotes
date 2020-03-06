@@ -56,10 +56,12 @@
   - ``SELECT MIN(column_name) as Some_name FROM table_name  WHERE condition;``
   - ``SELECT MAX(column_name) FROM table_name WHERE condition;``
 
-
-
-
-
+- Count, Average and Sum:
+  - ``SELECT COUNT(column_name) FROM table_name WHERE condition;``
+  - ``SELECT AVG(column_name) FROM table_name WHERE condition;``
+  - ``SELECT SUM(column_name) FROM table_name WHERE condition;``
+  
+  
 - CREATE DATABASE - creates a new database
 
 - ALTER DATABASE - modifies a database
