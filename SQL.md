@@ -52,6 +52,12 @@
 - Select Top: select the top number of records 
    `` SELECT TOP number column_name(s) FROM table_name WHERE condition;``
 
+- Min and Max: 
+  - ``SELECT MIN(column_name) as Some_name FROM table_name  WHERE condition;``
+  - ``SELECT MAX(column_name) FROM table_name WHERE condition;``
+
+
+
 
 
 - CREATE DATABASE - creates a new database
