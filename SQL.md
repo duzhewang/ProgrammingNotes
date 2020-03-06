@@ -17,6 +17,14 @@
   - ``SELECT COUNT(DISTINCT column1) FROM table_name``: lists the number of different (distinct) values in column1
   - ``SELECT COUNT (column1) FROM table_name``: count the total numebr
 
+- Where: 
+``
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+``
+
+
 
 - UPDATE - updates data in a database
 
