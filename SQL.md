@@ -76,6 +76,10 @@
 - Between: The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates. The BETWEEN operator is inclusive: begin and end values are included. 
   ``SELECT column_name(s) FROM table_name WHERE column_name BETWEEN value1 AND value2;``
   
+- Aliases: SQL aliases are used to give a table, or a column in a table, a temporary name. Aliases are often used to make column names more readable. An alias only exists for the duration of the query.  
+  ``SELECT column_name AS alias_name FROM table_name;``  
+  
+  
 - CREATE DATABASE - creates a new database
 
 - ALTER DATABASE - modifies a database
