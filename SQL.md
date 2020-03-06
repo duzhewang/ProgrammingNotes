@@ -62,6 +62,25 @@
   - ``SELECT SUM(column_name) FROM table_name WHERE condition;``
   
   
+- Like: The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. There are two wildcards often used in conjunction with the LIKE operator:
+ - %: The percent sign represents zero, one, or multiple characters
+ - _: The underscore represents a single character
+
+
+
+
+There are two wildcards often used in conjunction with the LIKE operator:
+
+% - The percent sign represents zero, one, or multiple characters
+_ - The underscore represents a single character
+
+
+
+
+
+
+
+  
 - CREATE DATABASE - creates a new database
 
 - ALTER DATABASE - modifies a database
