@@ -25,6 +25,12 @@
   - `` SELECT column1, column2, ... FROM table_name WHERE condition1 OR condition2 OR condition3 ...;``
   - `` SELECT column1, column2, ... FROM table_name WHERE NOT condition;``  
   
+- Order by:
+  - ``SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC;``
+
+
+
+  
   
 - UPDATE - updates data in a database
 
