@@ -18,11 +18,7 @@
   - ``SELECT COUNT (column1) FROM table_name``: count the total numebr
 
 - Where: 
-``
-SELECT column1, column2, ...
-FROM table_name
-WHERE condition;
-``
+  - ``SELECT column1, column2, ...FROM table_name WHERE condition;``
 
 
 
