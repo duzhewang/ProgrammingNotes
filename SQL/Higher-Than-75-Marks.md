@@ -4,3 +4,7 @@ If two or more students both have names ending in the same last three characters
 
 
 SQL: ``Select Name from Students where Marks>75 order by Right(Name,3) asc,ID asc;``
+
+
+
+Remark: ``Right(text, 3)`` choose the last three characters 
