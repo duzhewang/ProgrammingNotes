@@ -15,4 +15,6 @@ select max(D), max(P), max(S), max(A) from(
     from OCCUPATIONS order by Name
 ) temp group by row 
 ``
+
+
 How to write this query in SQL server? 
