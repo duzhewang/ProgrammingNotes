@@ -1,0 +1,2 @@
+- R markdown Book: https://bookdown.org/yihui/rmarkdown/
+- R markdown theme: https://www.datadreaming.org/post/r-markdown-theme-gallery/
