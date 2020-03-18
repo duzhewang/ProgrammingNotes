@@ -16,7 +16,7 @@ for _ in range(n):
             getattr(a, c[0])(int(c[1]))
         else: 
             getattr(a, c[0])()
-```python
+```
 
 ```python
 n=int(input())
