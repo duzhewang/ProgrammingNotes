@@ -28,3 +28,8 @@ def main():
 if __name=='__main__':    
    main()
 ```
+
+
+- swapcase(): https://www.geeksforgeeks.org/python-string-swapcase/
+- is.upper(), is.lower(), string.lower(), string.upper()
+- string.join(iterable): https://www.w3schools.com/python/ref_string_join.asp
