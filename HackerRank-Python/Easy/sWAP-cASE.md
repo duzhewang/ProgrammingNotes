@@ -11,3 +11,20 @@ if __name__ == '__main__':
     result = swap_case(s)
     print(result)
 ```
+
+
+```python
+def swap_case(letter):
+    if letter.isupper():
+       letter.lower()
+    if letter.islower():
+       letter.upper()
+    return(letter)   
+
+def main():
+    s=input()
+    print(''.join(map(swap_case, s)))
+    
+if __name=='__main__':    
+   main()
+```
