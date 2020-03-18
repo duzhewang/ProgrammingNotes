@@ -1,7 +1,7 @@
 Problem: https://www.hackerrank.com/challenges/python-lists/problem
 
 Pyhton3: 
-``
+```python
 n=int(input())
 a=[]
 for _ in range(n):
@@ -16,9 +16,9 @@ for _ in range(n):
             getattr(a, c[0])(int(c[1]))
         else: 
             getattr(a, c[0])()
-``
+```python
 
-``
+```python
 n=int(input())
 a=[]
 for _ in range(n):
@@ -41,7 +41,7 @@ for _ in range(n):
                 a.pop()
             if c[0]=='reverse':
                 a.reverse()    
-``                
+```                
 
 
 
