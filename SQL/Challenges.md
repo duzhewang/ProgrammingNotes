@@ -29,10 +29,3 @@ ORDER BY cnt DESC, c.hacker_id;
 
 
 
-
-
-
-
-
-
-``
