@@ -10,3 +10,5 @@ WHERE Start_Date < End_Date
 GROUP BY Start_Date
 ORDER BY DATEDIFF(Day, Start_Date, MIN(End_Date)), Start_Date;
 ``
+
+- Datediff: https://www.w3schools.com/sql/func_sqlserver_datediff.asp
