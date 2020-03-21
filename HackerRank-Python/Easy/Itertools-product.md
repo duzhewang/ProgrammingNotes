@@ -12,4 +12,3 @@ print(*product(A, B))
 
 
 ```
-- * is the unpack operator. 
