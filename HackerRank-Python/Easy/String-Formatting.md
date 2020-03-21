@@ -12,6 +12,8 @@ if __name__ == '__main__':
     n = int(input())
     print_formatted(n)
 ```
+But this solution didn't pass other tests. 
+
 
 
 - https://www.geeksforgeeks.org/python-format-function/
