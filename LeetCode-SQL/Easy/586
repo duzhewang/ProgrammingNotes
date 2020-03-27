@@ -1,0 +1,5 @@
+```
+Select customer_number from orders group by customer_number having count(customer_number)=
+(Select top 1 count(customer_number) from orders group by customer_number order by count(customer_number) desc) 
+
+```
