@@ -35,9 +35,22 @@ def square(a):
 square??
 ```
 
+## Exploring Modules with Tab-Completion 
 
+- Tab-completion of object contents 
 
+```
+L.<TAB>
+```
+- Tab-completion when importing 
 
+- Beyond tab completion: wildcard matching 
+
+For example, 
+
+```
+*Warning?
+```
 
 
 
