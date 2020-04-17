@@ -18,6 +18,10 @@ jupyter notebook
 help(...)
 ```
 
+use **q** to quit help. 
+
+
 ```
 len?
 ```
+
