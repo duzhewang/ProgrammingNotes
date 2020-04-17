@@ -53,5 +53,16 @@ For example,
 ```
 
 
+## Keyboard shortcuts in the IPython shell
+
+| Keystroke     | Action        | 
+| ------------- |:-------------:| 
+| Ctrl-a        | move cursor to the beginning of the line  | 
+| Ctrl-e        | move cursor to the end of the line    |  
+| Ctrl-b        | move cursor back one character   |  
+| Ctrl-f        | move cursor forward one character |
+
+
+
 
 
