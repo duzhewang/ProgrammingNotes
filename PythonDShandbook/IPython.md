@@ -61,6 +61,14 @@ For example,
 | Ctrl-e        | move cursor to the end of the line    |  
 | Ctrl-b        | move cursor back one character   |  
 | Ctrl-f        | move cursor forward one character |
+| Ctrl-d         | delete next character in line |
+| Ctrl-k   | cut text from cursor to end of line |
+| Ctrl-u   | cut text from beginning of line to the cursor |
+| Ctrl-y   | Yank (i.e., paste) text that was preciously cut|
+| Ctrl-t   | Transpose (i.e., switch) previous two characters |
+
+
+
 
 
 
