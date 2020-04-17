@@ -12,7 +12,7 @@ jupyter notebook
 
 ## Help and Documentation in IPython 
 
-- Accessing Documentation with **?**
+- Accessing Documentation with ```?```
 
 ```
 help(...)
@@ -26,4 +26,19 @@ len?
 ```
 
 - Accessing Source Code with ```??```
+
+```
+def square(a):
+    """Return the square of a."""
+    return a**2
+
+square??
+```
+
+
+
+
+
+
+
 
