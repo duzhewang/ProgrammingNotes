@@ -74,6 +74,10 @@ For example,
 | Ctrl-d   | Exit IPython Session            |
 
 
+## Magic commands 
+
+- Pasting code blocks: ```%paste``` and ```%cpaste```
+
 
 
 
