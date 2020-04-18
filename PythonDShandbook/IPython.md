@@ -66,6 +66,12 @@ For example,
 | Ctrl-u   | cut text from beginning of line to the cursor |
 | Ctrl-y   | Yank (i.e., paste) text that was preciously cut|
 | Ctrl-t   | Transpose (i.e., switch) previous two characters |
+| Ctrl-p   | Access previous command in history  |
+| Ctrl-n   | Access next command in history      |
+| Ctrl-r   | Reverse-search through command history |
+| Ctrl-l   | Clear terminal screen   |
+| Ctrl-c   | Interrupt current Python command |
+| Ctrl-d   | Exit IPython Session            |
 
 
 
