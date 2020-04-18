@@ -76,7 +76,7 @@ For example,
 
 ## Magic commands 
 
-- Pasting code blocks: ```%paste``` and ```%cpaste```
+- [Pasting code blocks: ```%paste``` and ```%cpaste```](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html)
 
 
 
