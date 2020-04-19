@@ -128,7 +128,7 @@ print(_)
 
 - Accessing a batch of previous inputs at once
 ```
-%history somenumber-somenumber
+%history somenumber1-somenumber2
 ```
 
 
