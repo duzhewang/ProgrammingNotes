@@ -100,6 +100,13 @@ The benefit of %timeit is that for short commands it will automatically perform 
    ...:     L.append(n ** 2)
    ...: 
 ```
+- Help on magic functions
+
+```
+%magic
+```
+
+again, use ```q``` to quit help. 
 
 
 
