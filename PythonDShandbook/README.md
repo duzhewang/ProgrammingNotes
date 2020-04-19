@@ -1,15 +1,15 @@
 Table of contents
 
-1. [IPython: Beyond Normal Python]()
+1. [IPython: Beyond Normal Python](https://github.com/dzwang91/ProgrammingNotes/blob/master/PythonDShandbook/IPython.md)
 
 - Help and Documentation in IPython
 - Keyboard Shortcuts in the IPython Shell
 - IPython Magic Commands
 - Input and Output History
 - IPython and Shell Commands
-- Errors and Debugging
-- Profiling and Timing Code
-- More IPython Resources
+- Errors and Debugging (didn't read)
+- Profiling and Timing Code (didn't read)
+- More IPython Resources (didn't read)
 
 2. Introduction to NumPy
 - Understanding Data Types in Python
