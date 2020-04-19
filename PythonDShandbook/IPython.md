@@ -78,7 +78,10 @@ For example,
 
 - [Pasting code blocks: ```%paste``` and ```%cpaste```](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html)
 
-
+- Running external code: 
+```
+%run scriptname.py
+```
 
 
 
