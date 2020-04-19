@@ -83,6 +83,23 @@ For example,
 %run scriptname.py
 ```
 
+- Timing code execution: ```%timeit```
+
+For example, 
+
+```
+%timeit L=[n**2 for n in range(1000)]
+```
+
+The benefit of %timeit is that for short commands it will automatically perform multiple runs in order to attain more robust results. For multi line statements, adding a second % sign will turn this into a cell magic that can handle multiple lines of input. For example, here's the equivalent construction with a for-loop
+
+```
+%%timeit
+   ...: L = []
+   ...: for n in range(1000):
+   ...:     L.append(n ** 2)
+   ...: 
+```
 
 
 
