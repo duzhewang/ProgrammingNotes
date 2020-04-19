@@ -140,7 +140,17 @@ Any command that works for the command-line can be used in Ipython by prefixing 
 ```
 !ls
 ```
+**Note**: it seems !cd does not work. Is this correct?
 
+-  Passing values to and from the shell
+
+For example:
+```
+contents=!pwd
+print(contents)
+```
+
+Note these results are not returned as lists, but as a special shell return type defined in Ipython. 
 
 
 
