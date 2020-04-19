@@ -1,4 +1,4 @@
-Table of contents
+[Table of contents](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
 
 1. [IPython: Beyond Normal Python](https://github.com/dzwang91/ProgrammingNotes/blob/master/PythonDShandbook/IPython.md)
 
