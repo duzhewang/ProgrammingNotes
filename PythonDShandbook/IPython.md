@@ -108,6 +108,34 @@ The benefit of %timeit is that for short commands it will automatically perform 
 
 again, use ```q``` to quit help. 
 
+# Input and Output history
+
+- IPython's ```In``` and ```Out``` objects 
+
+```
+print(In)
+print(Out)
+```
+
+- Underscore shortcuts and previous outputs 
+
+shortcut for accessing previous output 
+```
+print(_)
+```
+- Suppresing output: use a semicolon to the end of the line
+
+
+- Accessing a batch of previous inputs at once
+```
+%history somenumber-somenumber
+```
+
+
+
+
+
+
 
 
 
