@@ -132,6 +132,20 @@ print(_)
 ```
 
 
+# Ipython and shell commands
+
+- Shell commands in Ipython
+
+Any command that works for the command-line can be used in Ipython by prefixing it with the ```!``` character. For example, 
+```
+!ls
+```
+
+
+
+
+
+
 
 
 
