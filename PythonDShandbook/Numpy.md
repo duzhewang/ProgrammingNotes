@@ -64,3 +64,11 @@ np.eye(3)  # 3*3 identity matrix
 ```
 
 - NumPy standard data types: https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html
+
+
+## The basics of NumPy arrays 
+
+- 
+
+
+
