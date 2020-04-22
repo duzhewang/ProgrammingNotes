@@ -23,4 +23,43 @@ np.array([1,2,3,4], dtype='float32)
 
 - Unlike Python lists, NumPy arrays can explicitly be multi-dimensional. 
 
+- Creating Arrays from scratch:
+
+```
+np.zeros(10, dtype=int)
+```
+
+```
+np.ones((3,5), dtype=float)
+```
+
+```
+np.full((3,5), 3.14)
+```
+
+```
+np.arrange(0, 20, 2) # starting from 0, ending at 20, stepping by 2
+```
+
+```
+np.linspace(0, 1, 5)  # an array of five values evenly spaced between 0 and 1
+```
+
+
+```
+np.random.random((3,3))  # 3*3 array of uniformly distributed random values between 0 and 1 
+```
+
+
+```
+np.random.normal(0 ,1, (3,3))  # 3*3 array of normally distributed random values with mean 0 and standard deviation 1
+```
+
+```
+np.random.randint(0, 10, (3,3))  #3*3 array of random integers in the interval [0, 10)
+```
+
+```
+np.eye(3)  # 3*3 identity matrix
+```
 
