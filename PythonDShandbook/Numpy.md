@@ -63,3 +63,4 @@ np.random.randint(0, 10, (3,3))  #3*3 array of random integers in the interval [
 np.eye(3)  # 3*3 identity matrix
 ```
 
+- NumPy standard data types: https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html
