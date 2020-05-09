@@ -78,11 +78,16 @@ AND Syntax:
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition1 AND condition2 AND condition3 ...;
-OR Syntax
+```
+
+OR Syntax:
+```
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition1 OR condition2 OR condition3 ...;
-NOT Syntax
+```
+NOT Syntax:
+```
 SELECT column1, column2, ...
 FROM table_name
 WHERE NOT condition;
