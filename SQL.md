@@ -89,8 +89,15 @@
 
 
 ---------------------------------
+## SQL interview questions 
 
+1. What is Database?
 
+A database is an organized collection of data, stored and retrieved digitally from a remote or local computer system. Databases can be vast and complex, and such databases are developed using fixed design and modeling approaches.
+
+2. What is DBMS?
+
+DBMS stands for Database Management System. DBMS is a system software responsible for the creation, retrieval, updation and management of the database. It ensures that our data is consistent, organized and is easily accessible by serving as an interface between the database and its end users or application softwares.
 
 
 
