@@ -135,3 +135,48 @@ FOREIGN KEY - Ensures referential integrity for a record in another table.
 
 The PRIMARY KEY constraint uniquely identifies each row in a table. It must contain UNIQUE values and has an implicit NOT NULL constraint.
 A table in SQL is strictly restricted to have one and only one primary key, which is comprised of single or multiple fields (columns).
+
+
+9. What is a UNIQUE constraint?
+
+A UNIQUE constraint ensures that all values in a column are different. This provides uniqueness for the column(s) and helps identify each row uniquely. Unlike primary key, there can be multiple unique constraints defined per table. The code syntax for UNIQUE is quite similar to that of PRIMARY KEY and can be used interchangeably.
+
+10. What is a Foreign Key?
+
+A FOREIGN KEY comprises of single or collection of fields in a table that essentially refer to the PRIMARY KEY in another table. Foreign key constraint ensures referential integrity in the relation between two tables.
+The table with the foreign key constraint is labelled as the child table, and the table containing the candidate key is labelled as the referenced or parent table.
+
+11. What is a Join? List its different types.
+
+The SQL Join clause is used to combine records (rows) from two or more tables in a SQL database based on a related column between the two.
+
+12. What is a Self-Join?
+
+A self JOIN is a case of regular join where a table is joined to itself based on some relation between its own column(s). Self-join uses the INNER JOIN or LEFT JOIN clause and a table alias is used to assign different names to the table within the query.
+
+13. What is a Cross-Join?
+
+Cross join can be defined as a cartesian product of the two tables included in the join. The table after join contains the same number of rows as in the cross-product of number of rows in the two tables. If a WHERE clause is used in cross join then the query will work like an INNER JOIN.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
