@@ -39,6 +39,20 @@ FROM table_name;
 ```
 
 
+# The SQL WHERE Clause
+
+The WHERE clause is used to filter records. The WHERE clause is used to extract only those records that fulfill a specified condition.
+
+WHERE Syntax:
+
+```
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+
+
+
 
 
 
