@@ -359,19 +359,63 @@ UNION ALL
 SELECT column_name(s) FROM table2;
 ```
 
+# The SQL GROUP BY Statement
 
+The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
 
+The GROUP BY statement is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the result-set by one or more columns.
 
+GROUP BY Syntax:
 
+```
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+ORDER BY column_name(s);
+```
 
+# The SQL HAVING Clause
+The HAVING clause was added to SQL because **the WHERE keyword could not be used with aggregate functions.**
 
+HAVING Syntax:
+```
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+```
 
+# The SQL EXISTS Operator
+The EXISTS operator is used to test for the existence of any record in a subquery.
 
+The EXISTS operator returns true if the subquery returns one or more records.
 
+EXISTS Syntax:
+```
+SELECT column_name(s)
+FROM table_name
+WHERE EXISTS
+(SELECT column_name FROM table_name WHERE condition);
+```
 
+# The SQL CASE Statement
 
+The CASE statement goes through conditions and returns a value when the first condition is met (like an IF-THEN-ELSE statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause.
 
+If there is no ELSE part and no conditions are true, it returns NULL.
 
+CASE Syntax:
+```
+CASE
+    WHEN condition1 THEN result1
+    WHEN condition2 THEN result2
+    WHEN conditionN THEN resultN
+    ELSE result
+END;
+```
 
 
 
