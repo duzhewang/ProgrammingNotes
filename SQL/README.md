@@ -1,5 +1,7 @@
-- The blunder: use ```replace(salary, "0", "")```
+Problems need more practice:
 
+- The blunder: use ```replace(salary, "0", "")```
+- Top earners
 
 
 
