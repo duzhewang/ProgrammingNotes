@@ -125,5 +125,68 @@ INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 ```
 
+# What is a NULL Value?
+
+A field with a NULL value is a field with no value. If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value.
+
+Note: A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation!
+
+How to Test for NULL Values?
+
+IS NULL Syntax: 
+```
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+```
+IS NOT NULL Syntax:
+```
+SELECT column_names
+FROM table_name
+WHERE column_name IS NOT NULL;
+```
+
+# The SQL UPDATE Statement
+
+The UPDATE statement is used to modify the existing records in a table.
+
+UPDATE Syntax:
+```
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+# The SQL DELETE Statement
+
+The DELETE statement is used to delete existing records in a table.
+
+DELETE Syntax:
+```
+DELETE FROM table_name WHERE condition;
+```
+
+# The SQL SELECT TOP Clause
+
+The SELECT TOP clause is used to specify the number of records to return. The SELECT TOP clause is useful on large tables with thousands of records. Returning a large number of records can impact performance.
+
+SQL Server / MS Access Syntax:
+```
+SELECT TOP number|percent column_name(s)
+FROM table_name
+WHERE condition;
+```
+MySQL Syntax:
+```
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+```
+
+
+
+
+
 
 
