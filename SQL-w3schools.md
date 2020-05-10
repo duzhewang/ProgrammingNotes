@@ -240,8 +240,28 @@ There are two wildcards often used in conjunction with the LIKE operator:
 ```_``` - The underscore represents a single character
 Note: M
 
+# SQL wildcard: https://www.w3schools.com/sql/sql_wildcards.asp
 
 
+# The SQL IN Operator
+
+The IN operator allows you to specify multiple values in a WHERE clause.
+
+The IN operator is a shorthand for multiple OR conditions.
+
+IN Syntax:
+```
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+```
+or:
+
+```
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (SELECT STATEMENT);
+```
 
 
 
