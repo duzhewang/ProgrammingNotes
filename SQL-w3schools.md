@@ -202,5 +202,46 @@ FROM table_name
 WHERE condition;
 ```
 
+# The SQL COUNT(), AVG() and SUM() Functions
+
+The COUNT() function returns the number of rows that matches a specified criterion.
+
+The AVG() function returns the average value of a numeric column.
+
+The SUM() function returns the total sum of a numeric column.
+
+COUNT() Syntax:
+```
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+```
+AVG() Syntax:
+```
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
+```
+SUM() Syntax:
+```
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;
+```
+
+# The SQL LIKE Operator
+
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+There are two wildcards often used in conjunction with the LIKE operator:
+
+% - The percent sign represents zero, one, or multiple characters
+_ - The underscore represents a single character
+Note: M
+
+
+
+
+
 
 
