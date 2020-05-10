@@ -2,8 +2,7 @@ Problems need more practice:
 
 - The blunder: use ```replace(salary, "0", "")```
 - Top earners
-
-
+- Average Population of Each Continent: use ```floor```
 
 
 
