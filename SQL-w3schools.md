@@ -264,5 +264,123 @@ WHERE column_name IN (SELECT STATEMENT);
 ```
 
 
+# The SQL BETWEEN Operator
+
+The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+
+The BETWEEN operator is inclusive: begin and end values are included. 
+
+BETWEEN Syntax:
+```
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+```
+
+# SQL Aliases
+
+SQL aliases are used to give a table, or a column in a table, a temporary name.
+
+Aliases are often used to make column names more readable. An alias only exists for the duration of the query.
+
+Alias Column Syntax:
+```
+SELECT column_name AS alias_name
+FROM table_name;
+```
+
+# Different Types of SQL JOINs
+
+Here are the different types of the JOINs in SQL:
+
+- (INNER) JOIN: Returns records that have matching values in both tables
+
+- LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+
+- RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+
+- FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+INNER JOIN Syntax:
+```
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+LEFT JOIN Syntax:
+```
+SELECT column_name(s)
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+RIGHT JOIN Syntax:
+```
+SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+FULL OUTER JOIN Syntax:
+```
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition;
+```
+
+
+Self JOIN Syntax:
+```
+SELECT column_name(s)
+FROM table1 T1, table1 T2
+WHERE condition;
+```
+
+# The SQL UNION Operator
+
+The UNION operator is used to combine the result-set of two or more SELECT statements. Each SELECT statement within UNION must have the same number of columns. The columns must also have similar data types. The columns in each SELECT statement must also be in the same order. 
+
+UNION Syntax:
+```
+SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
+```
+UNION ALL Syntax:
+```
+SELECT column_name(s) FROM table1
+UNION ALL
+SELECT column_name(s) FROM table2;
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
