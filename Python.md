@@ -48,9 +48,14 @@ to uninstall Numpy, use
 conda uninstall numpy
 ```
 
+While most major packages for scientific computing are available via conda, we may find
+that we need packages that are not available through the conda installer. But we can use `conda-forge`. For example, to install `mlxtend`, use
 
-  
-  
+```
+conda install mlxtend -c conda-forge
+```
+here `-c` is the channel flag. 
+
   
   
   
