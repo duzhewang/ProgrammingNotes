@@ -27,6 +27,33 @@ python3 -m pip install jupyter notebook
   ```
   jupyter notebook
   ```
+  
+ 
+## Anaconda or miniconda 
+
+- Step 1: To use the Anaconda or Miniconda distribution, download the respective installer from the anaconda.com website
+and follow the instructions there. The Miniconda installer is available from https://docs.conda.io/en/latest/miniconda.html. 
+ 
+- Step 2: install and update python packages. For example, to install Numpy, use
+
+```
+conda install numpy
+```
+to update Numpy, use 
+```
+conda update numpy
+```
+to uninstall Numpy, use
+```
+conda uninstall numpy
+```
+
+
+  
+  
+  
+  
+  
  
  
 
