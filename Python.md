@@ -60,6 +60,7 @@ conda install mlxtend -c conda-forge
 ```
 here `-c` is the channel flag. 
 
+- See how to manage environments at https://github.com/rasbt/stat479-machine-learning-fs19/blob/master/03_python/03-python__notes.pdf. 
   
   
   
