@@ -11,6 +11,10 @@ python3 -m pip install packagename -upgrade
 ```
   python3 -m pip freeze
 ```
+or directly use
+```
+pip freeze
+```
 
 ## Jupyter notebook
 - install Jupyter notebook:
