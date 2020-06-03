@@ -15,10 +15,11 @@ python3 -m pip install jupyter notebook
 - Sometimes, when opening jupyter notebook on Github, it shows something went wrong. That is, the notebook rendering on Github is having some hiccups. Instead, we can cope and paster the notebook link to https://nbviewer.jupyter.org/.   
 
 
-
-
-
-
+- Add date, author name in jupyter notebook
+```
+%load_ext watermark
+%watermark -d -u -a "Duzhe Wang" -v -p numpy,sklearn,pandas
+```
 
 
 
