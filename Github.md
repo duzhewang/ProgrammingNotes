@@ -27,4 +27,12 @@ git push origin <your-git-branch> (typically 'master', but not always)
 
 - See Part 4 of Lesson 1: Mac/Linux Setup
 
+## Lesson 2: Create a Git repo
+
+- Create course dictories 
+
+```
+mkdir -p udacity-git-course/new-git-project && cd $_
+```
+
 
