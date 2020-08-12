@@ -50,7 +50,7 @@ Use the ```git init``` command to create a **new, empty repository** in the curr
 - Determine a repo's status
   - The ```git status``` is the key to the mind of Git. It will tell us what Git is thinking and the state of our repository as Git sees it. When you're first starting out, you should be using the ```git status``` command all of the time. 
   
-  
+ ## Lesson 3: Review a repo's history 
   
 
 
