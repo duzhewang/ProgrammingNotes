@@ -63,7 +63,17 @@ Use the ```git init``` command to create a **new, empty repository** in the curr
     - displays the number of lines that have been added/removed 
     - displays a summary line with the total number of modified files and lines that have been added/removed
 
-
+- ```git log --patch``` or ```git log -p```: the ```-p``` flag is used to alter how ```git log``` displays information. This command adds the information to the default output: 
+   - displays the files that have been modified 
+   - displays the location of the lines that have been added/removed 
+   - displays the actual changes that have been made
+   
+   
+   
+   
+   
+   
+   
 
 
 
