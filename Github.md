@@ -25,7 +25,7 @@ git push origin <your-git-branch> (typically 'master', but not always)
 
 ## Lesson 1: what is version control?
 
-- See Part 4 of Lesson 1: Mac/Linux Setup
+- See Part 4 of Lesson 1: Mac/Linux Setup (including installing git and configuring termial)
 
 ## Lesson 2: Create a Git repo
 
