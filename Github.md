@@ -18,3 +18,13 @@ git push origin <your-git-branch> (typically 'master', but not always)
 
 - 5. If the file name has white space, when using git add, use " git add 'file name' ".
 
+
+
+
+# Udacity course: A beginner's Git and GitHub tutorial
+
+## Lesson 1: what is version control?
+
+- See Part 4 of Lesson 1: Mac/Linux Setup
+
+
