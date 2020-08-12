@@ -47,6 +47,8 @@ Use the ```git init``` command to create a new, empty repository in the current 
   
   ```git clone https://github.com/udacity/course-git-blog-project blog-project```
   
+  - ```git clone``` can only clone repo at Github. It can not clone directories in the local computer. 
+  
   
 
 
