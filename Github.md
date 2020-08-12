@@ -29,7 +29,7 @@ git push origin <your-git-branch> (typically 'master', but not always)
 
 ## Lesson 2: Create a Git repo
 
-- Create course dictories 
+- Create course dictories and change the directory to it 
 
 ```
 mkdir -p udacity-git-course/new-git-project && cd $_
@@ -37,6 +37,15 @@ mkdir -p udacity-git-course/new-git-project && cd $_
 - Git Init
 
 Use the ```git init``` command to create a new, empty repository in the current directory. Running this command creates a hidden ```.git``` directory. This ```.git``` directory is the brain/storage center for the repository. It holds all of the configuration files and is where all of the commits are stored.  
+
+
+- Clone an existing repo
+  - what is cloning? ```to make an identical copy```
+  - The command is ```git clone``` and then you pass the path to the Git repository that you want to clone. For example, if we want to clone a blog project located at https://github.com/udacity/course-git-blog-project, the full command to clone this blog project is 
+  ```git clone https://github.com/udacity/course-git-blog-project```
+
+
+
 
 
 
