@@ -37,8 +37,6 @@ mkdir -p udacity-git-course/new-git-project && cd $_
 - Git Init
 
 Use the ```git init``` command to create a **new, empty repository** in the current directory. Running this command creates a hidden ```.git``` directory. This ```.git``` directory is the brain/storage center for the repository. It holds all of the configuration files and is where all of the commits are stored.  
-
-
 - Clone an existing repo
   - what is cloning? ```to make an identical copy```
   - The command is ```git clone``` and then you pass the path to the Git repository that you want to clone. For example, if we want to clone a blog project located at https://github.com/udacity/course-git-blog-project, the full command to clone this blog project is 
@@ -48,6 +46,10 @@ Use the ```git init``` command to create a **new, empty repository** in the curr
   ```git clone https://github.com/udacity/course-git-blog-project blog-project```
   
   - ```git clone``` can only clone repo at Github. It can not clone directories in the local computer. 
+
+- Determine a repo's status
+  - The ```git status``` is the key to the mind of Git. It will tell us what Git is thinking and the state of our repository as Git sees it. When you're first starting out, you should be using the ```git status``` command all of the time. 
+  
   
   
 
