@@ -56,8 +56,8 @@ Use the ```git init``` command to create a **new, empty repository** in the curr
   - the author
   - the date
   - and the message
-
-
+- ```git log --oneline```: the ```-oneline``` flag is used to alter how ```git log``` displays information. This command lists one commit per line, shows the list 7 characters of the commit's SHA, and shows the commit's message.   
+ 
 
 
 
