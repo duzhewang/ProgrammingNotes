@@ -36,7 +36,7 @@ mkdir -p udacity-git-course/new-git-project && cd $_
 ```
 - Git Init
 
-Use the ```git init``` command to create a new, empty repository in the current directory. Running this command creates a hidden ```.git``` directory. This ```.git``` directory is the brain/storage center for the repository. It holds all of the configuration files and is where all of the commits are stored.  
+Use the ```git init``` command to create a **new, empty repository** in the current directory. Running this command creates a hidden ```.git``` directory. This ```.git``` directory is the brain/storage center for the repository. It holds all of the configuration files and is where all of the commits are stored.  
 
 
 - Clone an existing repo
