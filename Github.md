@@ -58,7 +58,10 @@ Use the ```git init``` command to create a **new, empty repository** in the curr
   - and the message
 - ```git log --oneline```: the ```-oneline``` flag is used to alter how ```git log``` displays information. This command lists one commit per line, shows the list 7 characters of the commit's SHA, and shows the commit's message.   
  
-
+- ```git log --stat```: the ```--stat``` flag is used to alter how ```git log``` displays information. This command:
+    - displays the files that have been modified
+    - displays the number of lines that have been added/removed 
+    - displays a summary line with the total number of modified files and lines that have been added/removed
 
 
 
