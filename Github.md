@@ -43,6 +43,10 @@ Use the ```git init``` command to create a new, empty repository in the current 
   - what is cloning? ```to make an identical copy```
   - The command is ```git clone``` and then you pass the path to the Git repository that you want to clone. For example, if we want to clone a blog project located at https://github.com/udacity/course-git-blog-project, the full command to clone this blog project is 
   ```git clone https://github.com/udacity/course-git-blog-project```
+  - We can also clone project and use different name
+  ```git clone https://github.com/udacity/course-git-blog-project blog-project```
+  
+  
 
 
 
