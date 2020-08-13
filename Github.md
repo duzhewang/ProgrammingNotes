@@ -98,7 +98,10 @@ git push origin <your-git-branch> (typically 'master', but not always)
    - Running ```git tag -a <tagname>``` (e.g., ```git tag -a v1.0```) will tag the most recent commit. If we want to tag a commit that occurred farther back in the repo's history, we can use ```git tag -a v1.0 <SHA>```.  
    - A Git tag can be deleted with the ```-d``` falg and the name of the tag, e.g., ```git tag -d v1.0```. 
     
-   
+- Branching
+  - ```git branch``` command is used to interact with Git's branches. It can be used to list all branch names in the repo, create new branches, and delete branches. 
+  - Create a branch: ```git branch <branch name>```
+  - The ```git checkout``` Command: when a commit is made, it will be added to the current branch. If we want to switch between branches, we need to use ```git checkout <branch name>```
    
    
    
