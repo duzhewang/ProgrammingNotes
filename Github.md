@@ -106,7 +106,7 @@ git push origin <your-git-branch> (typically 'master', but not always)
   - Delete a branch: ```git branch -d <branch name>```. The branch can be deleted only after the branch's changes have been merged. 
   - See all branches at once: ```git log --oneline --graph --all```
    
-   
+ - Merging  
 
 
 
