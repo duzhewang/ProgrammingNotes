@@ -121,7 +121,7 @@ git push origin <your-git-branch> (typically 'master', but not always)
      - stage the files  (git add ...)
      - make a commit (git commit)
    
-   
+## Lesson 6: Undoing changes   
      
 
 
