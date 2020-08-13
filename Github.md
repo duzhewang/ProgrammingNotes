@@ -112,7 +112,16 @@ git push origin <your-git-branch> (typically 'master', but not always)
      - look back along the branch's history to find a single commit that both branches have in their commit history
      - combine the lines of code that were changed on the separate branches together
      - makes a commit to record the merge
-   - Fast-forward merge: a fast-forward merge will just move the currently checked out branch forward until it points to the same commit that the other branch is pointing to   
+   - Fast-forward merge: a fast-forward merge will just move the currently checked out branch forward until it points to the same commit that the other branch is pointing to  
+   - The regular type of merge: two divergent branches are combined. A merge commit is created. 
+   - Merge conflict: A merge conflict happens when the same line or lines have been changed on different branches that are being merged. Git will pause mid-merge telling you that there is a conflict and will tell you in what file or files the conflict occurred. To resolve the conflict in a file:
+     - locate and remove all lines with merge conflict indicators
+     - determine what to keep
+     - save the files 
+     - stage the files  (git add ...)
+     - make a commit (git commit)
+   
+   
      
 
 
