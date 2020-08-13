@@ -73,7 +73,12 @@ Use the ```git init``` command to create a **new, empty repository** in the curr
 - ```git show <SHA>```: shows a specific commit. ```git show``` displays the commit, the author, the date, the commit message, and the patch information
    - ```git show``` can be used with ```--stat``` and ```-p```
    
-   
+## Lesson 4: Add commits to a repo
+
+
+
+
+
    
    
    
