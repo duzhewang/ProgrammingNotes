@@ -101,10 +101,9 @@ git push origin <your-git-branch> (typically 'master', but not always)
 - Branching
   - ```git branch``` command is used to interact with Git's branches. It can be used to list all branch names in the repo, create new branches, and delete branches. 
   - Create a branch: ```git branch <branch name>```
-  - The ```git checkout``` Command: when a commit is made, it will be added to the current branch. If we want to switch between branches, we need to use ```git checkout <branch name>```
-   
-   
-   
+  - The ```git checkout``` Command: when a commit is made, it will be added to the current branch. If we want to switch between branches, we need to use ```git checkout <branch name>```. It's important to understand how this command works. Running this command will: 1) remove all files and directories from the working directory that Git is tracking, and 2) go into the repository and pull out all of the files and directories of the commit that the branch points to.
+  - ```git checkout -b <branch name1> <branch name2>```: for example, ```git checkout -b footer master``` command creates a new footer branch and have this footer branch start at the same location as the master branch. 
+  - Delete a branch: ```git branch -d <branch name>```. The branch can be deleted only after the branch's changes have been merged. 
    
    
 
