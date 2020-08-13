@@ -76,6 +76,9 @@ git push origin <your-git-branch> (typically 'master', but not always)
    
 ## Lesson 4: Add commits to a repo
 
+- ```git add```: the ```git add``` command is used to move files from the working directory to the staging index. This command:
+   - takes a space-separated list of file names
+   - alternatively, the period `.` can be used in place of a list of files to tell Git to add the current directory (and all nested files)
 
 
 
