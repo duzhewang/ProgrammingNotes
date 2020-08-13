@@ -76,11 +76,17 @@ git push origin <your-git-branch> (typically 'master', but not always)
    
 ## Lesson 4: Add commits to a repo
 
-- ```git add```: the ```git add``` command is used to move files from the working directory to the staging index. This command:
+- ```git add```: the ```git add``` command is used to move files from the **working directory** to the **staging index**. This command:
    - takes a space-separated list of file names
    - alternatively, the period `.` can be used in place of a list of files to tell Git to add the current directory (and all nested files)
 
-
+- ```git commit```: the command take files from the staging index and saves them in the repository. This command will open the code editor that is specified in your configuration. Inside the code editor, 
+   - a commit message must be supplied
+   - lines that start eith a ```#``` are comments and will not be recorded
+   - save the file after adding a commit message
+   - close the editor to make the commit
+   
+   We can also use ```git commit -m "<message>"```. 
 
 
    
