@@ -112,6 +112,7 @@ git push origin <your-git-branch> (typically 'master', but not always)
      - look back along the branch's history to find a single commit that both branches have in their commit history
      - combine the lines of code that were changed on the separate branches together
      - makes a commit to record the merge
+   - Fast-forward merge: a fast-forward merge will just move the currently checked out branch forward until it points to the same commit that the other branch is pointing to   
      
 
 
