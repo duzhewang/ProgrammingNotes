@@ -68,6 +68,16 @@ Use the ```git init``` command to create a **new, empty repository** in the curr
    - displays the location of the lines that have been added/removed 
    - displays the actual changes that have been made
    
+- ```git log -p <SHA>```: this command will start at that commit. Keep in mind that it will also show all of the commits that were maded prior to the supplied SHA. 
+
+- ```git show <SHA>```: shows a specific commit. ```git show``` displays 
+   - the commit
+   - the author
+   - the date
+   - the commit message
+   - the patch information
+   
+   
    
    
    
