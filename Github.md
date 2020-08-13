@@ -92,7 +92,12 @@ git push origin <your-git-branch> (typically 'master', but not always)
 
 - Having git igonre files: create a ```.gitignore``` file and add the file names we want to ignore in the file. The ```.gitignore``` file is used to tell Git about the files should not track. This file should be placed in the same directory that the ```.git``` directory is in. 
    
-   
+## Lesson 5: Tagging, Branching, and Merging
+
+- Tagging
+   - Running ```git tag -a <tagname>``` (e.g., ```git tag -a v1.0```) will tag the most recent commit. If we want to tag a commit that occurred farther back in the repo's history, we can use ```git tag -a v1.0 <SHA>```.  
+   - A Git tag can be deleted with the ```-d``` falg and the name of the tag, e.g., ```git tag -d v1.0```. 
+    
    
    
    
