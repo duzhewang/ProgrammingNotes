@@ -88,7 +88,9 @@ git push origin <your-git-branch> (typically 'master', but not always)
    
    We can also use ```git commit -m "<message>"```. 
 
+- ```git diff```: the command is used to see changes that have been made but haven't been committed. 
 
+- Having git igonre files: create a ```.gitignore``` file and add the file names we want to ignore in the file. The ```.gitignore``` file is used to tell Git about the files should not track. This file should be placed in the same directory that the ```.git``` directory is in. 
    
    
    
