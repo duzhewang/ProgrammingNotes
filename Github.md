@@ -31,10 +31,10 @@ git push origin <your-git-branch> (typically 'master', but not always)
 
 - Create course dictories and change the directory to it 
 
-```
-mkdir -p udacity-git-course/new-git-project && cd $_
-```
-Note: ```$_``` expand the last argument of the previous command ```mkdir -p```
+  ```
+  mkdir -p udacity-git-course/new-git-project && cd $_
+  ```
+  Note: ```$_``` expands the last argument of the previous command ```mkdir -p```
 
 - Git Init: Use the ```git init``` command to create a **new, empty repository** in the current directory. Running this command creates a hidden ```.git``` directory. This ```.git``` directory is the brain/storage center for the repository. It holds all of the configuration files and is where all of the commits are stored. Running ```git init``` multiple times doesn't cause any problems since it just re-initializes the Git directory.   
 
