@@ -107,6 +107,12 @@ git push origin <your-git-branch> (typically 'master', but not always)
   - See all branches at once: ```git log --oneline --graph --all```
    
  - Merging  
+   - The ```git merge <name-of-branch-to-merge-in>``` command is used to combine Git branches. When a merge happens, Git will:
+     - look at the branches that it's going to merge
+     - look back along the branch's history to find a single commit that both branches have in their commit history
+     - combine the lines of code that were changed on the separate branches together
+     - makes a commit to record the merge
+     
 
 
 
