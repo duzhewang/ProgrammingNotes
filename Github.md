@@ -124,6 +124,8 @@ git push origin <your-git-branch> (typically 'master', but not always)
 ## Lesson 6: Undoing changes   
 
 - Modifying the last commit: ```git commit --amend``` can alter the most-recent commit. 
+- Reverting a commit: ```git revert <SHA of commit to revert>``` comand is used to reverse a previously made commit.
+- Resetting commits: ```git reset```
      
 
 
