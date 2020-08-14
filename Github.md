@@ -122,6 +122,8 @@ git push origin <your-git-branch> (typically 'master', but not always)
      - make a commit (git commit)
    
 ## Lesson 6: Undoing changes   
+
+- Modifying the last commit: ```git commit --amend``` can alter the most-recent commit. 
      
 
 
