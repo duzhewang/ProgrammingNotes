@@ -112,14 +112,19 @@
 
 https://stackoverflow.com/questions/8775850/how-do-i-add-files-and-folders-into-github-repos
 
-- 2. How to remove the file only from the git repo, but not remove it from the file system?
-"git rm --cached filename" and then push changes to the remote repo. 
+- How to remove the file only from the git repo, but not remove it from the file system?
+
+```git rm --cached filename``` and then push changes to the remote repo. 
+
 https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo
 
-- 3. Remove directory from git and local:
+- Remove directory from git and local:
+
+```
 git rm -r one-of-the-directories
-git commit -m "Remove duplicated directory"
+git commit -m "<message>"
 git push origin <your-git-branch> (typically 'master', but not always)
+```
 
 - 4. How  to create a folder in github repo website?
    - step1: go to the folder inside which you want to create another folder
