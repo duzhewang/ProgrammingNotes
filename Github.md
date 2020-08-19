@@ -134,12 +134,14 @@ https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-comman
 
 - How to undo ```git rm```: 
   - undo ```git rm```
+  
     ```
     git rm file             # delete file & update index
     git checkout HEAD file  # restore file & index from HEAD
     ```
   - undo ```git rm -r```
-    ```
+  
+   ```
    git rm -r dir          # delete tracked files in dir & update index
    git checkout HEAD dir  # restore file & index from HEAD
    ```
