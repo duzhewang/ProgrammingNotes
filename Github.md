@@ -126,12 +126,7 @@ git commit -m "<message>"
 git push origin <your-git-branch> (typically 'master', but not always)
 ```
 
-- 4. How  to create a folder in github repo website?
-   - step1: go to the folder inside which you want to create another folder
-   - step2: click on New file
-   - step3: on the text field for the file name, first write the folder name you want to create, then type /, this creates a folder
-
-- 5. If the file name has white space, when using git add, use " git add 'file name' ".
+- If the file name has white space, when using git add, use ```git add 'file name'```.
 
 
 
