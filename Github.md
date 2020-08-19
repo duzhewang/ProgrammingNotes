@@ -148,6 +148,21 @@ https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-comman
    
    - See more at https://stackoverflow.com/questions/2125710/how-to-revert-a-git-rm-r
 
+- How to check git config? ```git config --list```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -----------------------------------------------------------------------------------------
 
 # Resources to learn Git
