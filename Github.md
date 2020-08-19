@@ -106,10 +106,10 @@
      
 ------------------------------------------------
 
+# Some questions
 
+- How to add folders to the git repo?
 
-- 1. How to add folders to the git repo?
-"git add <folder>/*" and then commit
 https://stackoverflow.com/questions/8775850/how-do-i-add-files-and-folders-into-github-repos
 
 - 2. How to remove the file only from the git repo, but not remove it from the file system?
