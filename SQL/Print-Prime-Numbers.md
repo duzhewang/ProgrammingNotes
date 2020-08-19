@@ -1,3 +1,0 @@
-Problem: https://www.hackerrank.com/challenges/print-prime-numbers/problem
-
-didn't know how to solve...
