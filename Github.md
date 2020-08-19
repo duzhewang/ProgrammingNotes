@@ -128,16 +128,21 @@ git push origin <your-git-branch> (typically 'master', but not always)
 
 - If the file name has white space, when using git add, use ```git add 'file name'```.
 
+- How to Remove Files and Directories Using Linux Command Line?
 
+https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-command-line/
 
-
-
-
-
-
-
-
-
+- How to undo ```git rm```: 
+  - undo ```git rm```
+    ```
+    git rm file             # delete file & update index
+    git checkout HEAD file  # restore file & index from HEAD
+    ```
+  - undo ```git rm -r```
+    ```
+   git rm -r dir          # delete tracked files in dir & update index
+   git checkout HEAD dir  # restore file & index from HEAD
+   ```
 
 
 
