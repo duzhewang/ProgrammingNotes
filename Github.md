@@ -145,7 +145,8 @@ https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-comman
    git rm -r dir          # delete tracked files in dir & update index
    git checkout HEAD dir  # restore file & index from HEAD
    ```
-
+   
+   - See more at https://stackoverflow.com/questions/2125710/how-to-revert-a-git-rm-r
 
 
 
