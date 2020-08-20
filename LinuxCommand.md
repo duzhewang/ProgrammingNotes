@@ -1,3 +1,28 @@
+# Udacity: Linux Command Line Bacis
+
+## Lesson 1: Get into the shell
+
+- What's a virtual machine? 
+  - A virtual machine is a computer program that simulates a computer. 
+  - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - rm file1: delete the file1;
 - rm -rf folder1: delete the folder1;
 - pwd: check current working directory;
