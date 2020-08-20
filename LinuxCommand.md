@@ -17,7 +17,8 @@
 # Commands
 
 - ```rm file1```: delete the file1;
-- ```rm -rf folder1```: delete the folder1;
+- ```rm -rf folder1```: delete the folder1; (DON'T USE IT! CAUTION!!)
+- ```rm -r directory```: remove the directory; 
 - ```pwd```: check current working directory;
 - ```sysctl -n hw.ncpu```: chenk how many cores on mac;
 - ```ls -l```: list the files in the current folder;
