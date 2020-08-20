@@ -4,7 +4,22 @@
 
 - SQL Statements: Most of the actions you need to perform on a database are done with SQL statements. **SQL keywords are NOT case sensitive**. 
 
-Some database systems require a semicolon at the end of each SQL statement. Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
+- Some database systems require a semicolon at the end of each SQL statement. Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
+
+- Some of the most important SQL commands:
+  - ```Select```: extracts data from a database
+  - ```Update```: updates data in a database
+  - ```Delete```: deletes data from a database
+  - ```Insert into```: inserts new data into a database
+  - ```Create database```: creates a new database
+  - ```alter database```: modifies a database
+  - ```create table```: creates a new table
+  - ```alter table```: modifies a table
+  - ```drop table```: deletes a table
+  - ```create index```: creates an index
+  - ```drop index```: deltes an index
+
+
 
 
 # The SQL SELECT Statement
