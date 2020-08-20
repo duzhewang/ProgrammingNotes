@@ -51,6 +51,7 @@
 - echo: print some arguments
 - echo "some text" > filename: write some text to the file
 - touch <file name>: make an empty file. 
+- exit or Control-D: log out  
 
 
 
