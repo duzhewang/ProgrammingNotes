@@ -10,25 +10,11 @@
   
 ## Lesson 2: Shell commands  
   
+## Lesson 3: The Linux filesystem  
   
-  
+--------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Commands
 
 - ```rm file1```: delete the file1;
 - ```rm -rf folder1```: delete the folder1;
@@ -56,7 +42,8 @@
 - ```exit``` or ```Control-D```: log out 
 - ```cat filename```: display contents of some file
 - ```cat filename1 filename2```: display contents of file1 and file2  
-  
+- ```man commandname```: show manual page of the command
+
 
 
 
