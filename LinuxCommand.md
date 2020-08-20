@@ -4,7 +4,10 @@
 
 - What's a virtual machine? 
   - A virtual machine is a computer program that simulates a computer. 
-  - 
+  - When you set up your virtual machine you installed Linux on the VM, making Linux the guest operating system. The operating system that's installed directly on your physical computer is called the host OS. 
+  - VirtualBox
+  
+  
 
 
 
