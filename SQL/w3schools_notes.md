@@ -1,12 +1,8 @@
 # SQL syntax
 
-- Database Tables
+- Database Tables: A database most often contains one or more tables. Each table is identified by a name. Tables contain records (rows) with data.
 
-A database most often contains one or more tables. Each table is identified by a name (e.g. "Customers" or "Orders"). Tables contain records (rows) with data.
-
-- SQL Statements
-
-Most of the actions you need to perform on a database are done with SQL statements. SQL keywords are NOT case sensitive: select is the same as SELECT.
+- SQL Statements: Most of the actions you need to perform on a database are done with SQL statements. **SQL keywords are NOT case sensitive**. 
 
 Some database systems require a semicolon at the end of each SQL statement. Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
 
