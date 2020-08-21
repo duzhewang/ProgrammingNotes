@@ -20,18 +20,35 @@
   - ```drop index```: deltes an index
 
 
+- Summary
+
   | Command       | Syntax            | Function |
   |---------------|-------------------|----------|
   |    Select     |  Select column1, column2,... from table_name| select data from a database |       
-  |  Select distinct       |   Select distinct column1, column2 from table_name      | return only distinct values         |         
+  |  Select distinct       |   Select distinct column1, column2 from table_name      | return only distinct values         |   
+  |Select top (SQL server/MS Access) | select top number(percent) column_names from table_name where condition| specify the number of records to return|
+  | Limit (MySQL)| select column_names from table_name where condition limit number|  |
   |  where       | select column1, column2,... from table_name where condition;       | the where clause is used to extract only those records that fulfill a specified condition          |
-  |         
-
-
-
-
-
-
+  |   And, or, not | select column1, column2,...from table_name where condition1 and condition2 |    |     
+  |order |select column1, column2,...from table_name order by column1, column2,...asc(desc)| sort the result in ascending or descending order|
+  |insert into | insert into table_name (column1, column2, column3...) values (value1, value2, value3,...);| insert new records in a table|  
+  |update |update table_name set column1=value1, column2=value2,...where condition;|modify the existing records in a table|
+  |delete | delete from table_name where condition | delete existing records in a table|
+  |Min, Max| Select min(column_name) from table_name where condition| return the smallest (largest) value of the selected column |
+  |count, avg, sum| select count(column_name) from table_name where condition|   ```count()``` returns the number of rows that matches a specified column. ```avg()``` returns the average value of a numeric column. ```sum()``` returns the total sum of a numeric column. |
+  |like | select column1, column2,...from table_name where columnN like pattern| like operator is used in a where clause to search for a specified pattern in a column. ```%``` represents zero, one, or multiple characters. ```_``` represents a single character. |
+  |In | select column_name from table_name where column_name in (value1, value2, ...)| specify multiple values in a where clause. |
+  | between | select column_name from table_name where column_name between value1 and value2 | select values within a given range. The values can be numbers, texts, or dates. The between operator in inclusive: begin and end are included. |
+  | aliases | select column_name as alias_name from table_name| give a table, or a column in a table, a temporary name|
+  | inner join | select column_name(s) from table1 inner join table2 on table1.column_name=table2.column_name | select records that have matching values in both tables|
+  | left join | select column_name(s) from table1 left join table2 on table1.column_name=table2.column_name | return all records from the left table, and the matched records from the right table. |
+  | right join | select column_name(s) from table1 right join table2 on table1.column_name=table2.column_name; | return all records from the right table, and the matched records from the left table. |
+  | full join | select column_name(s) from table1 full outer join table2 on table1.column_name=table2.column_name where condition; | return all records when there is a match in left or right table records. |
+  | self join | select column_name(s) from table1 T1, table1 T2 where condition; |  a self join is a regular join, but the table is joined with itself. |
+  |union | select column_name(s) from table 1 union select column_name(s) from table2; | the union operator is used to combine the result-set of two or more select statements. |
+  |group by | select column_name(s) from table_name where condition group by column_name(s) order by column_name(s); | the group by statement is often used with aggregate functions to group the result-set by one or more columns. |
+  | having | select column_name(s) from table_name where condition group by column_name(s) having condition order by column_name(s); | the having clause was added to SQL because the where keyword could not be used with aggregate functions. |
+  |case | see below | go through conditions and returns a value when the first condition is met. |
 
 
 
@@ -454,3 +471,8 @@ CASE
     ELSE result
 END;
 ```
+
+# SQL comments
+
+- Single line comments start with ```--```.
+- Multi-line comments start with ```/*``` and end with ```*/```.
