@@ -4,4 +4,4 @@
 
 # Atom
 
-- ```shift+control+m```: use markdown-preview packageM
+- ```shift+control+m```: use markdown-preview package
