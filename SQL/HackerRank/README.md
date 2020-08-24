@@ -17,3 +17,4 @@ Didn't do the following HackerRank problem:
 
 - ```len()```: length function 
 - ```like```: select pattern
+- ```round()``` function is used in MySQL
