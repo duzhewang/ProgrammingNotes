@@ -12,3 +12,7 @@ Problems need more practice:
 Didn't do the following HackerRank problem: 
 - Print prime numbers 
 - 15 days of learning SQL
+
+
+
+- ```len()```: length function 
