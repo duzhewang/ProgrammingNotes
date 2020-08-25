@@ -5,6 +5,9 @@ Problems need more practice:
 - Average Population of Each Continent: use ```floor```
 - Draw the triangle 1
 - Draw the triangle 2
+- Weather Observation Station 17
+
+
 
 ---------------------------------------------------------
 
