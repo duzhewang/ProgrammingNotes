@@ -22,3 +22,4 @@ Didn't do the following HackerRank problem:
 - ```like```: select pattern
 - ```round()``` function is used in MySQL
 - ```right(string, 3)```: last three characters of the string
+- ```replace(1203, "0", "")```: replace 1203 with 123. 
