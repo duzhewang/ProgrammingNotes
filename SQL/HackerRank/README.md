@@ -6,6 +6,7 @@ Problems need more practice:
 - Draw the triangle 1
 - Draw the triangle 2
 - Weather Observation Station 17
+- The PADS
 
 
 
