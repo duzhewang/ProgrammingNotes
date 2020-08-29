@@ -25,3 +25,5 @@ Didn't do the following HackerRank problem:
 - ```right(string, 3)```: last three characters of the string
 - ```replace(1203, "0", "")```: replace 1203 with 123. 
 - ```floor()```: round down to the nearest integer
+- ```concat(expression1, expression2,...)```: concatenate all expressions
+- ```lower(STRING)```: lower case of STRING
