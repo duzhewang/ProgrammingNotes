@@ -135,16 +135,10 @@ use ```%history?``` to see other flags.
 
 # Ipython and shell commands
 
-- Shell commands in Ipython
+- Shell commands in Ipython: Any command that works for the command-line can be used in Ipython by prefixing it with the ```!``` character. For example, ```!ls```
 
-Any command that works for the command-line can be used in Ipython by prefixing it with the ```!``` character. For example, 
-```
-!ls
-```
+-  Passing values from the shell to Ipython: For example, 
 
--  Passing values to and from the shell
-
-For example:
 ```
 contents=!pwd
 print(contents)
@@ -153,7 +147,7 @@ print(contents)
 Note these results are not returned as lists, but as a special shell return type defined in Ipython. 
 
 
-Another example (passing Python variables into the shell):
+- Passing Python variables into the shell: For example, 
 
 ```
 message="hello from python"
