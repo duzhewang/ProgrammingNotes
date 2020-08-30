@@ -24,5 +24,15 @@ order by n asc;
 ``
 
 
+Solution 3:
+
+```
+Select N, 
+  case when P is null then "Root"
+       when N not in (select distinct P from BST where P is not null) then "Leaf"
+       else "Inner"
+  end as type from BST
+order by N asc;
 
 
+```
