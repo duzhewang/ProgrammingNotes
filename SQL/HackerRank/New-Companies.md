@@ -14,3 +14,13 @@ WHERE c.company_code = l.company_code AND
       m.manager_code = e.manager_code
 GROUP BY c.company_code, c.founder ORDER BY c.company_code;
 ```
+
+
+```
+Select company_code, founder, count(distinct lead_manager_code), count(distinct senior_manager_code), count(distinct manager_code),count(distinct employee_code) from (Select distinct T1.company_code, T1.founder, T2.lead_manager_code, T2.senior_manager_code, T2.manager_code, T2.employee_code from Company as T1
+join Employee as T2
+on T1.company_code=T2.company_code) as T
+group by company_code, founder
+order by company_code asc; 
+
+```
