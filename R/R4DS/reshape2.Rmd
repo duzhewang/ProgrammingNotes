@@ -1,0 +1,75 @@
+---
+title: "Reshape2"
+author: "Duzhe Wang"
+date: "3/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## two formats of dataset 
+
+- wide-format 
+- long-format
+- reference: https://seananderson.ca/2013/10/19/reshape/
+
+
+
+## wide- to long-format data: the melt function 
+```{r}
+names(airquality)<-tolower(names(airquality))
+head(airquality)
+```
+
+```{r}
+library(reshape2)
+aql<-melt(airquality)
+head(aql)
+tail(aql)
+```
+
+
+
+```{r}
+aql2<-melt(airquality, id.vars=c("month", "day"))
+head(aql2)
+tail(aql2)
+```
+
+
+```{r}
+aql3<-melt(airquality, id.vars=c("month", "day"), variable.name="climate_variable",
+           value.name="climate_value")
+head(aql3)
+```
+
+## Long- to wide-format data: the cast functions 
+
+**dcast** uses a formula to describe the shape of the data. The arguments on the left refer to the ID variables and the arguments on the right refer to the measured variables. 
+
+
+```{r}
+aql4<-melt(airquality, id.vars=c("month", "day"))
+aqw<-dcast(aql4, month+day~variable)
+head(aqw)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

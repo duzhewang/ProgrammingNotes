@@ -1,0 +1,14 @@
+---
+title: "Introduction"
+author: "Duzhe Wang"
+date: "8/22/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+- Data visualization: ggplot2
+- Data transformation: select important variables, filter out key observations, create new variables, compute summaries
+- Exploratory data analysis 

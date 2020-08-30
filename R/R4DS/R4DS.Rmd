@@ -15,35 +15,35 @@ library(tidyverse)
 ```{r}
 mpg
 ggplot(data=mpg)+geom_point(mapping=aes(x=displ, y=hwy))
-#ggplot(data = <DATA>) + 
+#ggplot(data = <DATA>) +
 #GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))
 ```
 
 ```{r}
-ggplot(data = mpg) + 
+ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy, color = class))
 ```
 
 ```{r}
-ggplot(data = mpg) + 
+ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy, size = class))
 ```
 
 
-## Chapter 5: Data transformation 
+## Chapter 5: Data transformation
 
 ```{r}
 library(nycflights13)
 nycflights13::flights
 
-## tibbles are data frames, but slightly tweaked to work better in the tidyverse. 
+## tibbles are data frames, but slightly tweaked to work better in the tidyverse.
 ## int: integers
 ## dbl: double
 ## chr: characters
-## dttm: date-times 
+## dttm: date-times
 ## lgl: logical
-## fctr: factors 
-## date: dates 
+## fctr: factors
+## date: dates
 ```
 
 
@@ -75,10 +75,10 @@ filter(df, is.na(x)|x>1)
 ```{r}
 df<-tibble(x=c(5,2,NA))
 arrange(df, x)
-# missing value always in the end 
+# missing value always in the end
 ```
 
-### select(): select variables 
+### select(): select variables
 
 ```{r}
 select(flights, year, month, day)
@@ -107,7 +107,7 @@ summarise(flights, delay=mean(dep_delay, na.rm=TRUE))
 
 ```{r}
 (by_day<-group_by(flights, year, month, day))
-## group doesn't change how the data looks. It changes how it acts with the other dplyr verbs. 
+## group doesn't change how the data looks. It changes how it acts with the other dplyr verbs.
 
 summarise(by_day, delay=mean(dep_delay, na.rm=TRUE))
 ```
@@ -117,7 +117,7 @@ summarise(by_day, delay=mean(dep_delay, na.rm=TRUE))
 
 ```{r}
 by_dest<-group_by(flights, dest)
-(delay<-summarise(by_dest, 
+(delay<-summarise(by_dest,
                  count=n(), # number of rows for each destination
                  dist=mean(distance, na.rm=TRUE),
                  delay=mean(arr_delay, na.rm=TRUE)
@@ -136,7 +136,7 @@ Another much better way:
         group_by(dest)%>%
         summarise(
           count=n(),
-          dist=mean(distance, na.rm=TRUE),  ## remove missing values 
+          dist=mean(distance, na.rm=TRUE),  ## remove missing values
           delay=mean(arr_delay, na.rm=TRUE)
         ) %>%
  filter(count>20, dest!="HNL")
@@ -154,7 +154,7 @@ flights%>%
 ```
 
 
-### ungrouping 
+### ungrouping
 
 ```{r}
 by_day=flights%>%
@@ -163,40 +163,3 @@ ungroupdata=by_day %>%
          ungroup()
 summarise(ungroupdata, n=n())
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
