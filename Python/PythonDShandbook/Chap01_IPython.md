@@ -25,15 +25,14 @@ len?
 
 ```
 
-- Accessing Source Code with ```??```
+- Accessing Source Code: for example, we can define a square function 
 
 ```
 def square(a):
     """Return the square of a."""
     return a**2
-
-square??
 ```
+then  we can use ```square??``` to access the source code of this function. 
 
 ## Exploring Modules with Tab-Completion 
 
