@@ -37,7 +37,7 @@ then  we can use ```square??``` to access the source code of this function.
 
 We can use the ```<TAB>``` key for auto-completion and exploration of the contents of objects, modules, and name-spaces. 
 
-## wildcard matching
+## Wildcard matching
 
 Ipython provides a means of wildcard matching for names using the ```*``` character. The ```*``` character matches any string, including the empty string. For example, 
 
