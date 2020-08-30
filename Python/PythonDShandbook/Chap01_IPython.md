@@ -71,16 +71,17 @@ Ipython provides a means of wildcard matching for names using the ```*``` charac
 
 Ipython's magic commands are designed to succinctly solve various common problems in standard data analysis. Magic commands come in two flavors: line magics, which are denoted by a single ```%``` prefix and operate on a single line of input, and cell magics, which are denoted by a double ```%%```prefix and operate on multiple lines of input. 
 
+Some examples include: 
+
 - [Pasting code blocks: ```%paste``` and ```%cpaste```](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html)
 
 - Running external code: 
+
 ```
 %run scriptname.py
 ```
 
-- Timing code execution: ```%timeit```
-
-For example, 
+- Timing code execution using ```%timeit```: for example, 
 
 ```
 %timeit L=[n**2 for n in range(1000)]
@@ -95,13 +96,10 @@ The benefit of %timeit is that for short commands it will automatically perform 
    ...:     L.append(n ** 2)
    ...: 
 ```
-- Help on magic functions
 
-```
-%magic
-```
 
-again, use ```q``` to quit help. 
+- Help on magic functions: ```%magic``` or ```%lsmagic```
+
 
 # Input and Output history
 
