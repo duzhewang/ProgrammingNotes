@@ -10,19 +10,19 @@ ipython
 jupyter notebook
 ```
 
-## Help and Documentation in IPython 
+## Help in IPython 
 
-- Accessing Documentation with ```?```
+- Accessing Documentation: for example, if we want to see the documentation of the built-in ```len``` function, we can do
 
 ```
-help(...)
+help(len)
 ```
-
-use **q** to quit help. 
-
+or 
 
 ```
 len?
+```
+
 ```
 
 - Accessing Source Code with ```??```
