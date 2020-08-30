@@ -69,6 +69,8 @@ Ipython provides a means of wildcard matching for names using the ```*``` charac
 
 ## Magic commands 
 
+Ipython's magic commands are designed to succinctly solve various common problems in standard data analysis. Magic commands come in two flavors: line magics, which are denoted by a single ```%``` prefix and operate on a single line of input, and cell magics, which are denoted by a double ```%%```prefix and operate on multiple lines of input. 
+
 - [Pasting code blocks: ```%paste``` and ```%cpaste```](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html)
 
 - Running external code: 
