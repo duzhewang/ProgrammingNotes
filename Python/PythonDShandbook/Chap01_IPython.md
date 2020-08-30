@@ -114,7 +114,7 @@ print(Out)
  
 ```
 print(_)
-```'
+```
 
 - Suppresing output: use a semicolon to the end of the line
 
