@@ -103,26 +103,34 @@ The benefit of %timeit is that for short commands it will automatically perform 
 
 # Input and Output history
 
-- IPython's ```In``` and ```Out``` objects 
+- IPython's ```In``` and ```Out``` objects:  
 
 ```
 print(In)
 print(Out)
 ```
 
-- Underscore shortcuts and previous outputs 
-
-shortcut for accessing previous output 
+- Underscore shortcuts and previous outputs:  
+ 
 ```
 print(_)
-```
+```'
+
 - Suppresing output: use a semicolon to the end of the line
 
 
-- Accessing a batch of previous inputs at once
+- Accessing a batch of previous inputs at once:
+
 ```
 %history somenumber1-somenumber2
 ```
+or 
+
+```
+%history -n somenumber1-somenumber2
+```
+
+use ```%history?``` to see other flags. 
 
 
 # Ipython and shell commands
