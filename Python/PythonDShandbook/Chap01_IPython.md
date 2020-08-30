@@ -1,10 +1,10 @@
-## Launching the IPython Shell
+## Launching IPython 
 
-In the command line, type 
+- Ipython Shell: In the command line, type 
 ```
 ipython 
 ```
-## Launching the Jupyter Notebook
+- Jupyter Notebook: 
 
 ```
 jupyter notebook
