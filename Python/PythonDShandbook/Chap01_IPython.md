@@ -155,20 +155,6 @@ message="hello from python"
 
 ```
 
-- Shell-related magic commands
-
-We can not use !cd to navigate the filesystem. But we can use 
-
-```
-%cd ...
-```
-or 
-
-```
-cd ...
-```
-
-
 
 
 
