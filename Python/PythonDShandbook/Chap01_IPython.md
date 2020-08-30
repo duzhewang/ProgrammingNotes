@@ -33,18 +33,13 @@ def square(a):
 
 then  we can use ```square??``` to access the source code of this function. 
 
-## Exploring Modules with Tab-Completion 
+## Tab-Completion
 
-- Tab-completion of object contents 
+We can use the ```<TAB>``` key for auto-completion and exploration of the contents of objects, modules, and name-spaces. 
 
-```
-L.<TAB>
-```
-- Tab-completion when importing 
+## wildcard matching
 
-- Beyond tab completion: wildcard matching 
-
-For example, 
+Ipython provides a means of wildcard matching for names using the ```*``` character. The ```*``` character matches any string, including the empty string. For example, 
 
 ```
 *Warning?
