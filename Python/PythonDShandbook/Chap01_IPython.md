@@ -62,9 +62,9 @@ Ipython provides a means of wildcard matching for names using the ```*``` charac
 | Ctrl-p   | Access previous command in history  |
 | Ctrl-n   | Access next command in history      |
 | Ctrl-r   | Reverse-search through command history |
-| Ctrl-l   | Clear terminal screen   |
-| Ctrl-c   | Interrupt current Python command |
-| Ctrl-d   | Exit IPython Session            |
+| ```Ctrl-l```   | Clear terminal screen   |
+| ```Ctrl-c```   | Interrupt current Python command |
+| ```Ctrl-d```   | Exit IPython Session            |
 
 
 ## Magic commands 
