@@ -155,7 +155,9 @@ message="hello from python"
 
 ```
 
+## Errors and debugging
 
+With the ```%xmode``` magic function, IPython allows you to control the amount of information printed when the exception is raised. ```%xmode``` takes a single argument, the mode, and there are three possibilities: ```Plain```, ```Context```, ```Verbose```. 
 
 
 
