@@ -21,8 +21,7 @@ python3 -m pip install jupyter notebook
 %watermark -d -u -a "Duzhe Wang" -v -p numpy,sklearn,pandas
 ```
 
-
-
+- [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science)
 
 
 
