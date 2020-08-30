@@ -23,8 +23,6 @@ or
 len?
 ```
 
-```
-
 - Accessing Source Code: for example, we can define a square function 
 
 ```
