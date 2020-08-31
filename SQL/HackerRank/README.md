@@ -28,3 +28,4 @@ Didn't do the following HackerRank problem:
 - ```floor()```: round down to the nearest integer
 - ```concat(expression1, expression2,...)```: concatenate all expressions
 - ```lower(STRING)```: lower case of STRING
+- ```power(number, 2)```: number squared
