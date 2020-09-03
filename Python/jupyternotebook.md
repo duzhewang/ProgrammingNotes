@@ -7,7 +7,7 @@ python3 -m pip install jupyter notebook
   ```
   cd workingdirectory
   ```
- 
+
   - step 2: launch jupyter notebook
   ```
   jupyter notebook
@@ -21,11 +21,6 @@ python3 -m pip install jupyter notebook
 %watermark -d -u -a "Duzhe Wang" -v -p numpy,sklearn,pandas
 ```
 
+- From code cell to markdown: "esc + m ". From mardown to code cell: " esc + y ". See more shortcuts from ```Help->Keyboard Shortcuts``` in jupyter notebook
+
 - [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science)
-
-
-
-
-
-
-
