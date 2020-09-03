@@ -1,4 +1,4 @@
-Problems need more practice:
+## Problems which need more practice
 
 - The blunder: use ```replace(salary, "0", "")```
 - Top earners: use ```group by ``` (IMPORTANT!)
@@ -12,14 +12,13 @@ Problems need more practice:
 - Challenges
 
 
----------------------------------------------------------
 
-
-Didn't do the following HackerRank problem: 
+## Unsolved problems: 
 - Print prime numbers 
 - 15 days of learning SQL
 
-----------------------------------------------------------
+
+## Notes 
 
 - ```len()```: length function 
 - ```like```: select pattern
