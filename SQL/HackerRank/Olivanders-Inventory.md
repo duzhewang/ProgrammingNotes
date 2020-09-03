@@ -9,5 +9,3 @@ JOIN Wands_Property AS p ON m.code = p.code
 WHERE p.is_evil = 0
 ORDER BY m.power DESC, age DESC;
 ```
-
-Don't understand the story...
