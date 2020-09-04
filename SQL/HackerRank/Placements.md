@@ -10,3 +10,16 @@ Friends as F on F.ID=S.ID) as T1
 Join Packages as P2 on P2.ID=T1.Friend_ID
 where T1.Salary<P2.Salary order by P2.Salary;
 ```
+
+```
+Select T.name from
+(Select S.Id, S.name, P.Salary, F.friend_id from Students as S
+join Packages as P
+on S.id=P.id
+join Friends as F
+on F.id=S.id) as T
+join Packages as P
+on P.id=T.friend_id
+where P.salary>T.salary
+order by P.salary; 
+```
