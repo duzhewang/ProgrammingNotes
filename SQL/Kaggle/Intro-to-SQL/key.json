@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "zeta-scene-288613",
+  "private_key_id": "eda7e7bda7c490303fb8fb4389bf374613686d96",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDs4hhscPfcJ5Nk\nAk+7MpqinEBsdRj8GJLkUg0lQ07Fk+W56JubkCfuVZ+KQZjJjLsBWLmsIv/i5wxb\nOJP96syOoLJNTgvYl6M1OuRHG6j6837Bc8L2Vt/g6aVmZYyWsBVwZ3Kq4x7/VqQ9\nOKimBKjjmmnyJTr6i0OfJvKsYLXa7N5nRPAy2cgqrYrxHDfFnu/3TRzUAaPsx3Gg\nYZ75MolbN8NtZfX/mXAV5SNn4M4RhiuFnf+2ip/nICzjFsgwR4rMxGFacRTWoiLF\nnr27vLMhzPOxqIv+l+7GTNxVVI6LATlNJpaxLbfbJRMpcgKYH57nzAyg5ocdKQiG\naN1g8Fj3AgMBAAECggEAJJdiVXH336KfYm32+gA9ocvIKdjGxL5ZBnrkO/LTOrL3\nZAnZ66RPfsHsNJOgcdXS10jo2X3IkDjHkFnDhpAcDBYnpMhfDRSTafgQZimQJz+w\nv1pN7faKe7grzA74shg+H5BjRqFx2th741cauhZzLkFeh0CYBTa4+d8u0lDYFpp/\nRgCif8GLEerf35hDdVu6449/7ucd2f7AUX26CRYhlKzcoag+QTQnrRVAyaEVFQKD\nOVLqlqpMQ2IsY5hzCzUFNV4/HGbIhnclRN6idW6jTX+eXNysV6xLnBvb8AeCc9tS\nBcoEfaxtJuCR1PQ/BGJ9lY8v6hEdUcWE5b8Jj9NieQKBgQD246XPjORUpiSST6Mz\nwrlxejr7zTziIZBt8ZuhE+q6GZvDDEzy+cG0lkF52p7PwDcF8LBJbVjWFnx+nxe8\nuW9BqJrTKVjHkophpI4jFu2LX2su0GhfEI2siv00S9uQxxw66fWfggS/cmtoGcfl\nAzAODkH6dZq3PT9wDmzWQ8kZ+QKBgQD1n+u8j/UaA029dVRfWO7enMWSFxctAsT1\nfXyOPhYw3yc3E3r0CoxqgjurgH2kSoRb3a1/BIDaJXF6TiQGRrvALFtPO/vkmAsq\n+G4SXd/wvhKFW5D9ZJKaUuSJWmt88/wcFcjcluEu2Id6v5oIhsZFlGVamWxfb5A2\nQdhdRcRGbwKBgHzmkCTfD0hvwQKv/U2bTnvFLX/jxdBU0J9+YpBr5gz+FZnoaClo\nBwIYHcnKuxs5D90Wdei/w/iS6aqZS8XzPgDGjoUTXtGgJhfdyvafi889l5jYYGTv\nl+zZZ92EHvEweeyoHdXzTfmYphPFLyaBpVcHCYPu6TWYa7aB5bfEFUHpAoGAalmL\n4GEUZub3Sgj7Ny1yf8CxasfEqSCB1yk2PQB060Qz3oz4t6G5moQ5AdDolbIODRi2\nfkCc6dc8gxBCWNVXhaWvA2edcSTD8R8PybQLulkR+9vhs1VQhLFPcolL8RZTGnX0\nOk65wWbPgj5jmz1/q7DNEaVMXyYW8ucfn4MNsNECgYEAo/Rq/wSaHcjjgwugaWxZ\nJ88P04ipLyg9s3EY24ioG4e9KvcVhyNccGSUVYwHKMYXZ/F+ZLUO2XNVLiJwapmT\n9HAhfzzhYySP+/VQ3xErBYaP7B00EwlYrXSwm86HmbeQyhl2NrRz2A93swVNM1st\nc96Xm7tT3Khm43bzduXiZfs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "duzhe-494@zeta-scene-288613.iam.gserviceaccount.com",
+  "client_id": "102800465886426546847",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/duzhe-494%40zeta-scene-288613.iam.gserviceaccount.com"
+}
