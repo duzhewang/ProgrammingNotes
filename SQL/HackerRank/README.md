@@ -31,3 +31,4 @@
 - ```lower(STRING)```: lower case of STRING
 - ```power(number, 2)```: number squared
 - ```Datediff(day, start_date, end_date)```
+- ```union```
