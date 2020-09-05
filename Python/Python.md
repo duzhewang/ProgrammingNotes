@@ -1,13 +1,13 @@
-## Python Packages 
-- install: in terminal, type: 
+## Python Packages
+- install: in terminal, type:
 ```
 python3 -m pip install packagename
 ```
-- upgrade: 
+- upgrade:
 ```
 python3 -m pip install packagename -upgrade
 ```
-- check what packages are installed in my laptop: 
+- check what packages are installed in my laptop:
 ```
   python3 -m pip freeze
 ```
@@ -16,18 +16,25 @@ or directly use
 pip freeze
 ```
 
- 
-## Anaconda or miniconda 
+- You can use pip commands with grep command to search for any specific module installed on your system.
+```
+pip list | grep <module_name_you_want_to_check>
+```
+
+
+
+
+## Anaconda or miniconda
 
 - Step 1: To use the Anaconda or Miniconda distribution, download the respective installer from the anaconda.com website
-and follow the instructions there. The Miniconda installer is available from https://docs.conda.io/en/latest/miniconda.html. 
- 
+and follow the instructions there. The Miniconda installer is available from https://docs.conda.io/en/latest/miniconda.html.
+
 - Step 2: install and update python packages. For example, to install Numpy, use
 
 ```
 conda install numpy
 ```
-to update Numpy, use 
+to update Numpy, use
 ```
 conda update numpy
 ```
@@ -42,21 +49,21 @@ that we need packages that are not available through the conda installer. But we
 ```
 conda install mlxtend -c conda-forge
 ```
-here `-c` is the channel flag. 
+here `-c` is the channel flag.
 
-- See how to manage environments at https://github.com/rasbt/stat479-machine-learning-fs19/blob/master/03_python/03-python__notes.pdf. 
-  
-  
-  
- 
- 
+- See how to manage environments at https://github.com/rasbt/stat479-machine-learning-fs19/blob/master/03_python/03-python__notes.pdf.
+
+
+
+
+
 
 ## Python General Notes
 
-- how to stop a python program in terminal? 
-  use control+c. 
+- how to stop a python program in terminal?
+  use control+c.
 - use **exit(0)** to make the program abort. (see ex35 in LP3THW)
-- use **command+/** to comment or uncomment python scripts 
+- use **command+/** to comment or uncomment python scripts
 - Python uses **indentation** to indicate a block of code.
 - A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
   - A variable name must start with a letter or the underscore character
@@ -82,7 +89,7 @@ print("Python is " + x)
   - Sequence Types:	list, tuple, range
   - Mapping Type:	dict
   - Set Types:	set, frozenset
-  - Boolean Type:	bool 
+  - Boolean Type:	bool
   - Binary Types:	bytes, bytearray, memoryview
 
 - [Difference between lists and tuples](https://www.afternerd.com/blog/difference-between-list-tuple/)
@@ -99,14 +106,14 @@ print(random.randrange(1,10)) # display a random number between 1 and 9
 a = " Hello, World! "
 print(a.strip()) # returns "Hello, World!"
 ```
-- The lower() method returns the string in lower case. The upper() method returns the string in upper case. 
+- The lower() method returns the string in lower case. The upper() method returns the string in upper case.
 - [More on strings](https://www.w3schools.com/python/python_strings.asp)
 
-- Note on class: 
+- Note on class:
   - https://www.w3schools.com/python/python_classes.asp
   - https://www.hackerearth.com/zh/practice/python/object-oriented-programming/classes-and-objects-i/tutorial/
   - example:
-  
+
 ```
   class Person:
         def __init__(self, name, age):
@@ -117,7 +124,7 @@ print(a.strip()) # returns "Hello, World!"
   p1 = Person("John", 36)
   p1.myfunc()
 ```  
-- list comprehension 
+- list comprehension
   ```
   x = int(input())
   y = int(input())
@@ -125,21 +132,10 @@ print(a.strip()) # returns "Hello, World!"
   n = int(input())
   print([[i, j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if ((i+j+k)!=n)])
   ```
-- keep 2 decimal places 
+- keep 2 decimal places
 ```
 a=13.946
 print("%.2f"% a)
 ```
-  
+
 - string format: https://pyformat.info/
-
-
-  
-  
-  
-  
-  
-
-
-
-
