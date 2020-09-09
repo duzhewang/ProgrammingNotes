@@ -1,4 +1,4 @@
-## Python resources (http://pages.stat.wisc.edu/~sraschka/teaching/stat451-fs2020/)
+## [Python resources](http://pages.stat.wisc.edu/~sraschka/teaching/stat451-fs2020/)
 
 - Python for Beginners (Video Lectures): A great video series by educators at Microsoft, which was recently made available for free on YouTube: https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6.
 
