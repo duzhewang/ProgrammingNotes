@@ -1,3 +1,21 @@
+## Python resources
+
+- Python for Beginners (Video Lectures): A great video series by educators at Microsoft, which was recently made available for free on YouTube: https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6.
+
+- Learn Python (Interactive Tutorials): On https://www.learnpython.org/, you can find a interactive exercises that help you learn Python through a sequence of coding exercises.
+
+- Illustrated Guide to Python (Book): 
+   - “Illustrated Guide to Python 3: A Complete Walkthrough of Beginning Python with Unique Illustrations Showing how Python Really Works. Now covering Python 3.6 (Treading on Python) (Volume 1)” by Matt Harrison, ISBN-13: 978-1977921758.
+For instance, another great book is Allen Downey’s Think Python 2e (free PDF available at https://greenteapress.com/wp/think-python-2e/).
+   - Python Like You Mean It: A short, free intro for getting started with Python and its main scientific computing libraries: https://www.pythonlikeyoumeanit.com.
+
+
+
+
+
+
+
+
 ## Python Packages
 - install: in terminal, type:
 ```
