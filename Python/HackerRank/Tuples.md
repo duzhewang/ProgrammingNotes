@@ -1,6 +1,5 @@
 Problem: https://www.hackerrank.com/challenges/python-tuples/problem
 
-Python3:
 ```python
 n = int(input())
 integer_list = map(int, input().split())
