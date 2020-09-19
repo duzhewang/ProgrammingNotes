@@ -156,4 +156,4 @@ a=13.946
 print("%.2f"% a)
 ```
 
-- string format: https://pyformat.info/
+- string format: https://pyformat.info/ and https://mkaz.blog/code/python-string-format-cookbook/#f-strings
