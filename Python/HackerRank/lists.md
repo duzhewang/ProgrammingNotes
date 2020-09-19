@@ -43,6 +43,21 @@ for _ in range(n):
                 a.reverse()    
 ```                
 
+```python
+if __name__ == '__main__':
+    l=[]
+    N = int(input())
+    for _ in range(N):
+        cmd,*args=input().split()
+        if cmd!="print":
+            cmd=cmd+"("+",".join(args)+")"
+            eval("l."+cmd)
+        else:
+            print(l)  
+
+```
+
+
 
 
 - strip(): 
