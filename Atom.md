@@ -5,7 +5,7 @@
 - display the side bar on atom: click view, then click Toggle Tree View.
 - open the setting: command+shift+b, then type setting
 - cmd+shift+n: open a new file
-- run selected code in atom:press ```command+shift+p```, then type ```script: Run``` and click ```enter``` key
+- run selected code in atom: select code, press ```command+shift+p```, then type ```script: Run``` and click ```enter``` key
 
 
 ## Markdown-preview command
