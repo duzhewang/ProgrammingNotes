@@ -157,3 +157,7 @@ print("%.2f"% a)
 ```
 
 - string format: https://pyformat.info/ and https://mkaz.blog/code/python-string-format-cookbook/#f-strings
+
+- reverse a list using slice notation: https://stackoverflow.com/questions/5876998/reversing-a-list-using-slice-notation
+
+
