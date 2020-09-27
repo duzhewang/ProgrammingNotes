@@ -1,4 +1,5 @@
 ## Problems not familiar with:
+- 196: ```delete```
 - 619 
 - 627: ```update```
 - 1241
