@@ -1,5 +1,6 @@
 ## Problems not familiar with:
 - 196: ```delete```
+- 197: ```datediff```
 - 597: ```ifnull```
 - 619 
 - 627: ```update```
