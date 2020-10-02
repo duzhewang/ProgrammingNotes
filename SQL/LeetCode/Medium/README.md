@@ -1,6 +1,4 @@
 ## Problems not familiar with:
-
-- 1285
 - 1205
 - 117
 
@@ -16,7 +14,8 @@
 - Accumulative sum/runnning total: 
   - 1308
   
-  
+- Continuous range: 
+  - 1285
   
   
   
