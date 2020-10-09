@@ -13,6 +13,7 @@
 
 - Accumulative sum/runnning total: 
   - 1308
+  - 1204
   
 - Continuous range: 
   - 1285
