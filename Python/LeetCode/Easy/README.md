@@ -1,1 +1,1 @@
-
+LeetCode easy part notes
