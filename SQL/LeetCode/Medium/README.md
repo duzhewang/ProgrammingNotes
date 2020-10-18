@@ -22,3 +22,6 @@
   
  - Select first n rows for each group:
    - 1532
+
+- Change the odd and even rows
+  - 626
