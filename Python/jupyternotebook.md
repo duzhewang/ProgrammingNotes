@@ -25,4 +25,19 @@ python3 -m pip install jupyter notebook
 
 - From code cell to markdown: "esc + m ". From mardown to code cell: " esc + y ". See more shortcuts from ```Help->Keyboard Shortcuts``` in jupyter notebook
 
+- Insert a picture in the notebook:
+
+```
+#Import library
+from IPython.display import Image
+# Load image from local storage
+Image(filename = "img.png", width = 600, height = 300)
+
+
+```
+
+
+
+
+
 - [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science)
