@@ -29,3 +29,6 @@
 
 - Rank with ties:
   - 178
+
+- Combine two tables:
+ - 1205
