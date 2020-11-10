@@ -33,3 +33,19 @@
 
 - Combine two tables:
   - 1205
+  
+- Window function:
+  - 1454
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
