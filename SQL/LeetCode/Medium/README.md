@@ -37,7 +37,8 @@
 - Window function:
   - 1454
   
-  
+- Sql function for the Nth highest salary:
+  - 177
   
   
   
