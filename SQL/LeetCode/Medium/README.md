@@ -33,6 +33,7 @@
 
 - Combine two tables:
   - 1205
+  - 614 (join with itself)
   
 - Window function:
   - 1454
