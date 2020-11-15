@@ -41,7 +41,8 @@
 - Sql function for the Nth highest salary:
   - 177
   
-  
+- Make a table by Monday, Tuesday,....
+  - 1479
   
   
   
