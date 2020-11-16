@@ -6,3 +6,6 @@
   - 1479
   
   
+- Average between some time window
+  - 1651
+  
