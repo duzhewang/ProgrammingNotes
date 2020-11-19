@@ -9,3 +9,6 @@
 - Average between some time window
   - 1651
   
+- Devide the time periods year by year
+  - 1384
+  
