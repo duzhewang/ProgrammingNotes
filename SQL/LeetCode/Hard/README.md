@@ -12,3 +12,6 @@
 - Devide the time periods year by year
   - 1384
   
+
+- determine time ranges 
+  - 1225
