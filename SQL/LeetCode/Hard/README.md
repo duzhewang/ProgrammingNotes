@@ -15,3 +15,15 @@
 
 - determine time ranges 
   - 1225
+
+
+- Median:
+ - 569
+ 
+ 
+ 
+ 
+ ## Syntax
+ 
+ - rank: 
+```rank() over(partition by field_name_1 order by field_name_2)```
