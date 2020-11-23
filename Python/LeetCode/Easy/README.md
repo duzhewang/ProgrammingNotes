@@ -1,1 +1,7 @@
-LeetCode easy part notes
+## Summary
+
+
+- Binary search:
+  - 1351
+
+
