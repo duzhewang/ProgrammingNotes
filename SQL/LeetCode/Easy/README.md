@@ -12,4 +12,5 @@
 - 1435: use ```union```
 - 1511
 - 1517: wildcard 
+- 1667: uppercase the first letter and lowercase the remaining letters 
 
