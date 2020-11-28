@@ -20,7 +20,8 @@
 - Median:
   - 569
  
- 
+- Change the table format:
+  - 618
  
  
  ## Syntax
