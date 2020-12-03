@@ -150,8 +150,8 @@ https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-comman
 
 - How to check git config? ```git config --list```
 
-
-
+- ```git error: failed to push some refs to remote``` question: 
+https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote
 
 
 
