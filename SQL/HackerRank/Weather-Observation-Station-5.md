@@ -12,8 +12,32 @@ ABC 3
 PQRS 4
 
 
-SQL: ``select top 1 City, LEN(City) City_Length from STATION order by City_Length ASC,City ASC;
-select top 1 City, LEN(City) City_Length from STATION order by City_Length desc,City ASC``
+SQL: 
 
+```select top 1 City, LEN(City) City_Length from STATION order by City_Length ASC,City ASC;
+select top 1 City, LEN(City) City_Length from STATION order by City_Length desc,City ASC
+```
 
 Remark: use order by to order the city names and then use select top 1 to choose the desired one. 
+
+
+
+
+
+MySQL:
+
+```
+(Select City, length(City) from Station
+order by length(city) asc, City asc
+limit 1)
+union
+(Select City, length(City) from Station
+order by length(city) desc, City asc
+limit 1)
+
+```
+
+
+
+
+
