@@ -85,3 +85,48 @@ SELECT *
 ```
 
 ### SQL IN
+
+- IN is a logical operator in SQL that allows you to specify a list of values that you'd like to include in the results.
+
+- example:
+
+```
+select * from tutorial.billboard_top_100_year_end
+where yeat_rank in (1,2,3)
+
+```
+
+
+### SQL between
+
+- example
+
+```
+
+SELECT *
+  FROM tutorial.billboard_top_100_year_end
+ WHERE year_rank BETWEEN 5 AND 10
+
+
+```
+
+
+### SQL IS NULL
+
+- example
+
+```
+SELECT *
+  FROM tutorial.billboard_top_100_year_end
+ WHERE artist IS NULL
+
+```
+
+
+### SQL and
+
+### SQL Or
+
+### SQL not
+
+### SQL order by
