@@ -34,4 +34,11 @@ group by rownumber
 
 ```
 
+Note: it doesn't matter if we use ```max``` or ```min``` 
+
+
+
+
+
+
 
