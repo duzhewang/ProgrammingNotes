@@ -24,3 +24,18 @@ group by company_code, founder
 order by company_code asc; 
 
 ```
+
+
+```
+Select T.company_code, founder, leadnum, seniornum, managernum, employeenum from
+(Select Company_Code, count(distinct lead_manager_code) as leadnum, count(distinct senior_manager_code) as seniornum, count(distinct manager_code) as managernum, count(distinct employee_code) as employeenum
+from Employee 
+group by company_code) as T
+join Company as C
+on C.company_code=T.company_code
+order by T.company_code asc; 
+
+
+
+
+```
