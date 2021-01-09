@@ -49,7 +49,7 @@ Write a query calculating the amount of error (i.e.:  average monthly salaries),
 
 ```
 
-- Solution:
+- Solution: use ```ceil``` and ```replace```
 
 ```
 
