@@ -8,3 +8,16 @@ SELECT top 1 months*salary as earnings, COUNT(*) FROM Employee GROUP BY months*s
 ```
 
 reference: https://www.hackerrank.com/challenges/earnings-of-employees/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+
+
+MySQL:
+
+```
+Select months*salary as earnings, count(*) from Employee
+group by earnings
+order by earnings desc
+limit 1
+
+
+
+```
