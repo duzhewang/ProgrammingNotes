@@ -37,6 +37,38 @@ group by rownumber
 Note: it doesn't matter if we use ```max``` or ```min``` 
 
 
+2. [The Blunder](https://www.hackerrank.com/challenges/the-blunder/problem)
+
+- Problem
+
+```
+Samantha was tasked with calculating the average monthly salaries for all employees in the EMPLOYEES table, but did not realize her keyboard's  key was broken until after completing the calculation. She wants your help finding the difference between her miscalculation (using salaries with any zeroes removed), and the actual average salary.
+
+Write a query calculating the amount of error (i.e.:  average monthly salaries), and round it up to the next integer.
+
+
+```
+
+- Solution:
+
+```
+
+Select ceil(avg(salary)-avg(replace(salary, '0', ''))) from Employees 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
