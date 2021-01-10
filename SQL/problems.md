@@ -58,7 +58,25 @@ Select ceil(avg(salary)-avg(replace(salary, '0', ''))) from Employees
 
 
 
-3. [Weather observation station](https://www.hackerrank.com/challenges/weather-observation-station-20/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
+3. [Weather observation station 20](https://www.hackerrank.com/challenges/weather-observation-station-20/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
+
+- Problem: 
+```
+A median is defined as a number separating the higher half of a data set from the lower half. Query the median of the Northern Latitudes (LAT_N) from STATION and round your answer to  decimal places.
+```
+
+- Solution:
+```
+Set @rowindex=-1;
+Select round(avg(LAT_N), 4) FROM 
+(Select @rowindex:=@rowindex+1 as rownumber, LAT_N from Station
+order by LAT_N ASC) AS t
+where rownumber in (floor(@rowindex/2), ceil(@rowindex/2))
+
+
+
+
+```
 
 
 
