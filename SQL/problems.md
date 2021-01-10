@@ -58,7 +58,7 @@ Select ceil(avg(salary)-avg(replace(salary, '0', ''))) from Employees
 
 
 
-
+3. [Weather observation station](https://www.hackerrank.com/challenges/weather-observation-station-20/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
 
 
 
