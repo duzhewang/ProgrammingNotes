@@ -100,6 +100,24 @@ order by count(*) desc, h.hacker_id;
 ```
 
 
+5. [Challenges](https://www.hackerrank.com/challenges/challenges/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=)
+
+```
+Select H.hacker_id, H.name, count(C.challenge_id) as num_challenge from Hackers as H
+join Challenges as C
+on H.hacker_id=C.hacker_id
+group by H.hacker_id, H.name
+having num_challenge=(select count(challenge_id) from Challenges group by hacker_id order by count(challenge_id) desc limit 1)
+or num_challenge in 
+(Select cnt from 
+(select count(challenge_id) as cnt from Challenges group by hacker_id) as T
+ group by cnt
+having count(*)=1)
+order by num_challenge desc, hacker_id; 
+
+
+```
+
 
 
 
