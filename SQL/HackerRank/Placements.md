@@ -23,3 +23,21 @@ on P.id=T.friend_id
 where P.salary>T.salary
 order by P.salary; 
 ```
+
+
+MySQL:
+
+```
+Select S.Name from Friends as F
+join Packages as P1
+on F.ID=P1.ID
+join Packages as P2
+on F.Friend_ID=P2.ID
+join Students as S
+on S.ID=F.ID
+where P2.salary>P1.salary
+order by P2.salary
+
+
+
+```
