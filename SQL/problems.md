@@ -128,7 +128,23 @@ group by Start_Date
 order by datediff(min(End_Date), Start_Date) asc, Start_Date asc
 ```
 
+7. [Symmetric pairs](https://www.hackerrank.com/challenges/symmetric-pairs/problem)
 
+```
+
+(Select X, Y from Functions 
+where X=Y
+group by X
+having count(*)>1)
+union
+(Select F1.X, F1.Y from Functions as F1
+join Functions as F2
+on F1.X=F2.Y and F1.Y=F2.X
+where F1.X<F1.Y)
+order by X asc
+
+
+```
 
 
 
