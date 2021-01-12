@@ -118,11 +118,16 @@ order by num_challenge desc, hacker_id;
 
 ```
 
+6. [SQL project planning](https://www.hackerrank.com/challenges/sql-projects/problem)
 
-
-
-
-
+```
+Select Start_Date, min(End_Date) from
+(Select Start_Date from Projects where Start_Date not in (Select End_Date from Projects)) as T1, 
+(Select End_Date from Projects where End_Date not in (Select Start_Date from Projects)) as T2
+where Start_Date<End_Date
+group by Start_Date
+order by datediff(min(End_Date), Start_Date) asc, Start_Date asc
+```
 
 
 
