@@ -1,6 +1,5 @@
 # A collection of hard problems 
 
-## Changing table formats
 
 1. [Occupations](https://www.hackerrank.com/challenges/occupations/problem)
 
