@@ -1,7 +1,7 @@
 Problem: https://www.hackerrank.com/challenges/interviews/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
 
 SQL: 
-``
+```
 SELECT con.contest_id, con.hacker_id, con.name, 
 SUM(sg.total_submissions), SUM(sg.total_accepted_submissions), 
 SUM(vg.total_views), SUM(vg.total_unique_views)
@@ -21,7 +21,7 @@ HAVING SUM(sg.total_submissions) +
        SUM(vg.total_views) +
        SUM(vg.total_unique_views) > 0
 ORDER BY con.contest_id;
-``
+```
 
 
 
