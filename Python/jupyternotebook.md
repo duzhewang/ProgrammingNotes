@@ -25,6 +25,12 @@ python3 -m pip install jupyter notebook
 
 - From code cell to markdown: "esc + m ". From mardown to code cell: " esc + y ". See more shortcuts from ```Help->Keyboard Shortcuts``` in jupyter notebook
 
+- Shortcuts:
+  - ``shift+return: run cell, select below``
+
+
+
+
 - Insert a picture in the notebook:
 
 ```
