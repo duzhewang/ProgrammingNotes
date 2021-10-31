@@ -28,6 +28,7 @@ python3 -m pip install jupyter notebook
 - Shortcuts:
   - ``shift+return: run cell, select below``
   - ``control+return: run selected cell``
+  - delete the cell: ``dd``
 
 
 
