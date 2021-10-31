@@ -31,7 +31,10 @@ python3 -m pip install jupyter notebook
   - delete the cell: ``dd``
 
 
-
+- Convert a jupyter notebook to pdf: in shell, type
+  ```
+  jupyter nbconvert <input notebook> --to pdf
+  ```
 
 - Insert a picture in the notebook:
 
