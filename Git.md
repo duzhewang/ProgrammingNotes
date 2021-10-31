@@ -1,4 +1,4 @@
-# An Intro to Git and GitHub
+# [An Intro to Git and GitHub](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
 
 
