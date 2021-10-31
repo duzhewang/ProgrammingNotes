@@ -1,2 +1,2 @@
 - How to check if git is installed
-  In terminal, type ``git version``
+  - In terminal, type ``git version``
