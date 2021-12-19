@@ -1,3 +1,16 @@
+Last updated date: 12/18/2021
+
+
+# Link
+- https://www.w3schools.com/sql/default.asp
+
+# SQL Intro
+
+- What is SQL? 
+  - SQL stands for structured Query Language
+  - SQL lets you access and manipulate databases
+
+
 # SQL syntax
 
 - Database Tables: A database most often contains one or more tables. Each table is identified by a name. Tables contain records (rows) with data.
