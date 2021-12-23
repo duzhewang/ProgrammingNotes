@@ -1,3 +1,14 @@
+Last updated date: 12/23/2021
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
 ## Problems which need more practice
 
 - The blunder: use ```replace(salary, "0", "")```
@@ -32,3 +43,9 @@
 - ```power(number, 2)```: number squared
 - ```Datediff(day, start_date, end_date)```
 - ```union```
+
+
+
+
+
+
