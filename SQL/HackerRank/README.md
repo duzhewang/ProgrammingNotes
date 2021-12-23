@@ -1,6 +1,11 @@
 Last updated date: 12/23/2021
 
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
 
 
 
