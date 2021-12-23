@@ -300,7 +300,9 @@ There are two wildcards often used in conjunction with the LIKE operator:
 
 ```_``` - The underscore represents a single character
 
-# SQL wildcard: https://www.w3schools.com/sql/sql_wildcards.asp
+# SQL wildcard: 
+
+https://www.w3schools.com/sql/sql_wildcards.asp
 
 
 # The SQL IN Operator
