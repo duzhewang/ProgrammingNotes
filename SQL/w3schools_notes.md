@@ -299,7 +299,6 @@ There are two wildcards often used in conjunction with the LIKE operator:
 ```%``` - The percent sign represents zero, one, or multiple characters
 
 ```_``` - The underscore represents a single character
-Note: M
 
 # SQL wildcard: https://www.w3schools.com/sql/sql_wildcards.asp
 
