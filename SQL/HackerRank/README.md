@@ -3,7 +3,7 @@ Last updated date: 12/23/2021
 
 |  Subdomains               | Problems    | Status |
 |  ----------         | ----------- | ----------- |
-| Basic select    | Revising the select query I    |  -[x]     |
+| Basic select    | Revising the select query I    |  - [x]     |
 |     | Paragraph   | Text        |
 
 
