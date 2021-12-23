@@ -4,7 +4,11 @@ Last updated date: 12/23/2021
 |  Subdomains               | Problems    | Status |
 |  ----------         | ----------- | ----------- |
 | Basic select    | Revising the select query I    | :heavy_check_mark:     |
-|     | Paragraph   | Text        |
+|     | Revising the select query II  |    :heavy_check_mark:       |
+|     | Select All |  :heavy_check_mark:       |
+|     | Select By ID | :heavy_check_mark:       |
+|     | Japanese cities' attributes |  :heavy_check_mark:       |
+|     | Japanese cities' names | :heavy_check_mark:       |
 
 
 
