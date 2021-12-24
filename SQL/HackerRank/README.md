@@ -9,8 +9,9 @@ Last updated date: 12/23/2021
 |     | Select By ID | :heavy_check_mark:       |
 |     | Japanese cities' attributes |  :heavy_check_mark:       |
 |     | Japanese cities' names | :heavy_check_mark:       |
-
-
+|      | Weather observation station 1 | :heavy_check_mark:       |
+|      | Weather observation station 3 | :heavy_check_mark:       |
+|      | Weather observation station 4 | :heavy_check_mark:       |
 
 
 
