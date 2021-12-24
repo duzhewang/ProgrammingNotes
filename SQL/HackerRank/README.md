@@ -44,7 +44,7 @@ Last updated date: 12/23/2021
 ## Notes 
 
 - ```len()```: length function  in MS SQL server
-- "length()": length function in mySQL
+- ```length()```: length function in mySQL
 - ```like```: select pattern
 - ```round()``` function is used in MySQL
 - ```right(string, 3)```: last three characters of the string
