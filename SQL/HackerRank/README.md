@@ -12,6 +12,7 @@ Last updated date: 12/23/2021
 |      | Weather observation station 1 | :heavy_check_mark:       |
 |      | Weather observation station 3 | :heavy_check_mark:       |
 |      | Weather observation station 4 | :heavy_check_mark:       |
+|      | Weather observation station 4 | MySQL works, but MS SQL server seems does not work. Don't know why.       |
 
 
 
@@ -42,7 +43,8 @@ Last updated date: 12/23/2021
 
 ## Notes 
 
-- ```len()```: length function 
+- ```len()```: length function  in MS SQL server
+- "length()": length function in mySQL
 - ```like```: select pattern
 - ```round()``` function is used in MySQL
 - ```right(string, 3)```: last three characters of the string
