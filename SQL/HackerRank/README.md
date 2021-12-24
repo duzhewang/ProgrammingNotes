@@ -12,8 +12,8 @@ Last updated date: 12/23/2021
 |      | Weather observation station 1 | :heavy_check_mark:       |
 |      | Weather observation station 3 | :heavy_check_mark:       |
 |      | Weather observation station 4 | :heavy_check_mark:       |
-|      | Weather observation station 4 | MySQL works, but MS SQL server seems does not work. Don't know why.       |
-
+|      | Weather observation station 5 | MySQL works, but MS SQL server seems does not work. Don't know why.       |
+|      | Weather observation station 6 | :heavy_check_mark:       |
 
 
 
