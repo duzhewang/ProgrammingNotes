@@ -16,7 +16,7 @@ Last updated date: 12/23/2021
 |      | Weather observation station 6 | :heavy_check_mark:       |
 |      | Weather observation station 7 | :heavy_check_mark:       |
 |      | Weather observation station 8 | :heavy_check_mark:       |
-
+|      | Weather observation station 9 | :heavy_check_mark:       |
 
 
 
