@@ -17,7 +17,9 @@ Last updated date: 12/23/2021
 |      | Weather observation station 7 | :heavy_check_mark:       |
 |      | Weather observation station 8 | :heavy_check_mark:       |
 |      | Weather observation station 9 | :heavy_check_mark:       |
-
+|      | Weather observation station 10 | :heavy_check_mark:      |
+|      | Weather observation station 11 | :heavy_check_mark:       |
+|      | Weather observation station 12 | :heavy_check_mark:       |
 
 
 
@@ -49,7 +51,7 @@ Last updated date: 12/23/2021
 - ```length()```: length function in mySQL
 - ```like```: select pattern
 - ```round()``` function is used in MySQL
-- ```right(string, 3)```: last three characters of the string
+- ```right(string, 3)```: **last three characters of the string**
 - ```replace(1203, "0", "")```: replace 1203 with 123. 
 - ```floor()```: round down to the nearest integer
 - ```concat(expression1, expression2,...)```: concatenate all expressions
