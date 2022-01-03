@@ -20,8 +20,9 @@ Last updated date: 12/23/2021
 |      | Weather observation station 10 | :heavy_check_mark:      |
 |      | Weather observation station 11 | :heavy_check_mark:       |
 |      | Weather observation station 12 | :heavy_check_mark:       |
-
-
+|      |Higher than 75 marks | :heavy_check_mark:       |
+|      |Employee names | :heavy_check_mark:       |
+|      |Employee salaries | :heavy_check_mark:       |
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
