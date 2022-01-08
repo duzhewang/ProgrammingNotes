@@ -1,4 +1,4 @@
-Last updated date: 12/23/2021
+Last updated date: 1/7/2022
 
 
 |  Subdomains               | Problems    | Status |
@@ -23,6 +23,10 @@ Last updated date: 12/23/2021
 |      |Higher than 75 marks | :heavy_check_mark:       |
 |      |Employee names | :heavy_check_mark:       |
 |      |Employee salaries | :heavy_check_mark:       |
+| Advanced select    | Type of triangle  | :heavy_check_mark:  |
+
+
+
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
