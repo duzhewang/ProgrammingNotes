@@ -24,7 +24,7 @@ Last updated date: 1/7/2022
 |      |Employee names | :heavy_check_mark:       |
 |      |Employee salaries | :heavy_check_mark:       |
 | Advanced select    | Type of triangle  | :heavy_check_mark:  |
-
+|      |The PADS |  :heavy_check_mark:  |
 
 
 
@@ -57,6 +57,7 @@ Last updated date: 1/7/2022
 - ```like```: select pattern
 - ```round()``` function is used in MySQL
 - ```right(string, 3)```: **last three characters of the string**
+- ```left(string, 1)```: the first character of the string
 - ```replace(1203, "0", "")```: replace 1203 with 123. 
 - ```floor()```: round down to the nearest integer
 - ```concat(expression1, expression2,...)```: concatenate all expressions
