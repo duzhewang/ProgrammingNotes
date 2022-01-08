@@ -38,7 +38,6 @@ Last updated date: 1/7/2022
 - Draw the triangle 2
 - Weather Observation Station 17
 - Weather Observation Station 20
-- The PADS
 - Occupations
 - Challenges
 - SQL project planning
