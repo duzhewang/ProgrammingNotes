@@ -25,8 +25,7 @@ Last updated date: 1/7/2022
 |      |Employee salaries | :heavy_check_mark:       |
 | Advanced select    | Type of triangle  | :heavy_check_mark:  |
 |      |The PADS |  :heavy_check_mark:  |
-
-
+|      |Occupations |  Need more practice. this exercise is about how to change the table from long type to wide type.  |
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
