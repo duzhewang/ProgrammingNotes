@@ -1,4 +1,6 @@
-- install Jupyter notebook:
+# Jupyter notebook notes
+
+### install Jupyter notebook:
 ```
 python3 -m pip install jupyter notebook
 ```
