@@ -55,7 +55,3 @@ Image(filename = "img.png", width = 600, height = 300)
 
 ```
 
-
-
-### A gallery of interesting Jupyter Notebooks
-- https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science
