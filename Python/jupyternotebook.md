@@ -2,13 +2,13 @@
 Last updated date: 1/9/2022
 
 
-### Install Jupyter notebook:
+### Install Jupyter notebook
 
 ```
 python3 -m pip install jupyter notebook
 ```
 
-### Open Jupyter notebook:
+### Open Jupyter notebook
   - step 1: change the working directory
   ```
   cd workingdirectory
@@ -18,10 +18,12 @@ python3 -m pip install jupyter notebook
   ```
   jupyter notebook
   ```
-- Sometimes, when opening jupyter notebook on Github, it shows something went wrong. That is, the notebook rendering on Github is having some hiccups. Instead, we can cope and paster the notebook link to https://nbviewer.jupyter.org/.   
+### nbviewer
+Sometimes, when opening jupyter notebook on Github, it shows something went wrong. That is, the notebook rendering on Github is having some hiccups. Instead, we can cope and paster the notebook link to https://nbviewer.jupyter.org/.   
 
 
-- Add date, author name in jupyter notebook
+### Add date, author name in jupyter notebook
+
 ```
 %load_ext watermark
 %watermark -d -u -a "Duzhe Wang" -v -p numpy,sklearn,pandas
@@ -29,20 +31,20 @@ python3 -m pip install jupyter notebook
 **Note: no white space between package names.** 
 
 
+### Shortcuts
+
 - From code cell to markdown: "esc + m ". From mardown to code cell: " esc + y ". See more shortcuts from ```Help->Keyboard Shortcuts``` in jupyter notebook
-
-- Shortcuts:
-  - ``shift+return: run cell, select below``
-  - ``control+return: run selected cell``
-  - delete the cell: ``dd``
+- ``shift+return: run cell, select below``
+- ``control+return: run selected cell``
+- delete the cell: ``dd``
 
 
-- Convert a jupyter notebook to pdf: in shell, type
+### Convert a jupyter notebook to pdf: in shell, type
   ```
   jupyter nbconvert <input notebook> --to pdf
   ```
 
-- Insert a picture in the notebook:
+### Insert a picture in the notebook:
 
 ```
 #Import library
@@ -55,6 +57,5 @@ Image(filename = "img.png", width = 600, height = 300)
 
 
 
-
-
-- [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science)
+### A gallery of interesting Jupyter Notebooks
+- https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science
