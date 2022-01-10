@@ -41,7 +41,7 @@ Sometimes, when opening jupyter notebook on Github, it shows something went wron
 
 ### Convert a jupyter notebook to pdf: in shell, type
   ```
-  jupyter nbconvert <input notebook> --to pdf
+  jupyter nbconvert <notebook name> --to pdf
   ```
 
 ### Insert a picture in the notebook:
