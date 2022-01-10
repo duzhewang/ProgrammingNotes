@@ -26,6 +26,7 @@ Last updated date: 1/7/2022
 | Advanced select    | Type of triangle  | :heavy_check_mark:  |
 |      |The PADS |  :heavy_check_mark:  |
 |      |Occupations |  **Need more practice**. This exercise is about how to change the table from long type to wide type.  |
+|      |Binary Tree Nodes |  :heavy_check_mark:  |
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
