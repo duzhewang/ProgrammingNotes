@@ -1,10 +1,14 @@
 # Jupyter notebook notes
+Last updated date: 1/9/2022
 
-### install Jupyter notebook:
+
+### Install Jupyter notebook:
+
 ```
 python3 -m pip install jupyter notebook
 ```
-- open Jupyter notebook:
+
+### Open Jupyter notebook:
   - step 1: change the working directory
   ```
   cd workingdirectory
