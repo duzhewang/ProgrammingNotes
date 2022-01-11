@@ -28,8 +28,11 @@ Last updated date: 1/10/2022
 |      |Occupations |  **Need more practice**. This exercise is about how to change the table from long type to wide type.  |
 |      |Binary Tree Nodes |  :heavy_check_mark:  |
 |      |New companies |  :heavy_check_mark:  |
-|      |Revising aggregations-the count function |  :heavy_check_mark:  |
-
+|   Aggregation   |Revising aggregations-the count function |  :heavy_check_mark:  |
+|      |Revising aggregations-the sum function |  :heavy_check_mark:  |
+|      |Revising aggregations-Averages |  :heavy_check_mark:  |
+|      |Average population|  :heavy_check_mark:  |
+|      |Japan population |  :heavy_check_mark:  |
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
