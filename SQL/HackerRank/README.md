@@ -35,13 +35,11 @@ Last updated date: 1/10/2022
 |      |Japan population |  :heavy_check_mark:  |
 |      |Population density difference |  :heavy_check_mark:  |
 |      |The Blunder|  :heavy_check_mark: Need to be familiar with `CAST` and `Replace` |
-
+|      |Top earners|  :heavy_check_mark:|
 
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
-
-- Top earners: use ```group by ``` (IMPORTANT!)
 - Average Population of Each Continent: use ```floor```
 - Draw the triangle 1
 - Draw the triangle 2
