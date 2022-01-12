@@ -37,8 +37,7 @@ Last updated date: 1/10/2022
 |      |The Blunder|  :heavy_check_mark: Need to be familiar with `CAST` and `Replace` |
 |      |Top earners|  :heavy_check_mark:|
 |      |Weather Observation Station 2|  :heavy_check_mark:|
-
-
+|      |Weather Observation Station 13|  :heavy_check_mark:|
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
