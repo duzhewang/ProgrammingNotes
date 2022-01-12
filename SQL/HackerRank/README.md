@@ -33,6 +33,9 @@ Last updated date: 1/10/2022
 |      |Revising aggregations-Averages |  :heavy_check_mark:  |
 |      |Average population|  :heavy_check_mark:  |
 |      |Japan population |  :heavy_check_mark:  |
+|      |Population density difference |  :heavy_check_mark:  |
+
+
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
