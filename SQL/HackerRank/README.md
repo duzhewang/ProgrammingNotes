@@ -38,13 +38,19 @@ Last updated date: 1/10/2022
 |      |Top earners|  :heavy_check_mark:|
 |      |Weather Observation Station 2|  :heavy_check_mark:|
 |      |Weather Observation Station 13|  :heavy_check_mark:|
+|      |Weather Observation Station 14|  :heavy_check_mark:|
+|      |Weather Observation Station 15|  :heavy_check_mark:|
+|      |Weather Observation Station 16|  :heavy_check_mark:|
+|      |Weather Observation Station 17|  :heavy_check_mark:|
+|      |Weather Observation Station 18|  :heavy_check_mark:|
+|      |Weather Observation Station 19|  :heavy_check_mark: In MySQL, use `power(4, 2)` to calculte 4 squared. |
+
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
 - Average Population of Each Continent: use ```floor```
 - Draw the triangle 1
 - Draw the triangle 2
-- Weather Observation Station 17
 - Weather Observation Station 20
 - Occupations
 - Challenges
