@@ -41,7 +41,6 @@ Last updated date: 1/10/2022
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
 
-- The blunder: use ```replace(salary, "0", "")```
 - Top earners: use ```group by ``` (IMPORTANT!)
 - Average Population of Each Continent: use ```floor```
 - Draw the triangle 1
