@@ -52,7 +52,6 @@ Last updated date: 1/10/2022
 - Average Population of Each Continent: use ```floor```
 - Draw the triangle 1
 - Draw the triangle 2
-- Weather Observation Station 20
 - Occupations
 - Challenges
 - SQL project planning
@@ -74,6 +73,7 @@ Last updated date: 1/10/2022
 - ```left(string, 1)```: the first character of the string
 - ```replace(1203, "0", "")```: replace 1203 with 123. 
 - ```floor()```: round down to the nearest integer
+- ```ceil()```: round up to the nearest integer
 - ```concat(expression1, expression2,...)```: concatenate all expressions
 - ```lower(STRING)```: lower case of STRING
 - ```power(number, 2)```: number squared
