@@ -34,6 +34,7 @@ Last updated date: 1/10/2022
 |      |Average population|  :heavy_check_mark:  |
 |      |Japan population |  :heavy_check_mark:  |
 |      |Population density difference |  :heavy_check_mark:  |
+|      |The Blunder|  :heavy_check_mark: Need to be familiar with `CAST` and `Replace` |
 
 
 
