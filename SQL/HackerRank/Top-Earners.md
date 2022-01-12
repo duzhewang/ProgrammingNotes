@@ -18,3 +18,11 @@ group by earnings
 order by earnings desc
 limit 1
 ```
+
+
+```
+Select months*salary as total_earnings, count(*) from Employee
+where months*salary=(select max(months*salary) from Employee)
+group by months*salary; 
+
+```
