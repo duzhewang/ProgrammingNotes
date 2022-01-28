@@ -45,7 +45,7 @@ Last updated date: 1/12/2022
 |      |Weather Observation Station 18|  :heavy_check_mark:|
 |      |Weather Observation Station 19|  :heavy_check_mark: In MySQL, use `power(4, 2)` to calculte 4 squared. |
 |      |Weather Observation Station 20|  :heavy_check_mark: Need to be familiar with `floor()` and `ceil()` |
-
+| Basic join | Population census | :heavy_check_mark:|
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
