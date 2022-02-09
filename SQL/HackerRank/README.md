@@ -47,10 +47,11 @@ Last updated date: 1/12/2022
 |      |Weather Observation Station 20|  :heavy_check_mark: Need to be familiar with `floor()` and `ceil()` |
 | Basic join | Population census | :heavy_check_mark:|
 |            | African cities | :heavy_check_mark:|
+|            | Average population of each continent | :heavy_check_mark: use ```floor```|
+
 
 ---------------------------------------------------------------------------------------
 ## Problems which need more practice
-- Average Population of Each Continent: use ```floor```
 - Draw the triangle 1
 - Draw the triangle 2
 - Occupations
