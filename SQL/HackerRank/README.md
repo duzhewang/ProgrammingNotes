@@ -48,6 +48,7 @@ Last updated date: 1/12/2022
 | Basic join | Population census | :heavy_check_mark:|
 |            | African cities | :heavy_check_mark:|
 |            | Average population of each continent | :heavy_check_mark: use ```floor```|
+|            | The report | :heavy_check_mark: ```case when ... then... else ... end```|
 
 
 ---------------------------------------------------------------------------------------
