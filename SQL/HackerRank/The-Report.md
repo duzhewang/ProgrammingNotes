@@ -14,3 +14,16 @@ Select case when G.grade<8 then NULL
 where S.marks>=G.min_mark and S.marks<=G.max_mark
 order by G.grade desc, S.name; 
 ```
+
+
+```
+Select case when G.Grade>=8 then S.name
+            else NULL
+       end, G.Grade, S.Marks from Students as S
+       left join Grades as G
+       on S.Marks>=G.Min_Mark and S.Marks<=G.Max_Mark
+       order by G.Grade desc, S.Name asc
+
+
+
+```
