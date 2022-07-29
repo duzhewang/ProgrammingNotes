@@ -26,6 +26,6 @@ print(ip, row.names=FALSE)
 - Output STDOUT:
   ```
   write(result, stdout())
-  ```
-  
+  ```  
+- `sprintf`
   
