@@ -41,7 +41,7 @@ Sometimes, when opening jupyter notebook on Github, it shows something went wron
 - delete the cell: ``dd``
 - change the cell to markdown by hitting ``m`` key
 - change the cell to code by hitting ``y`` key
-
+- ``control``+``c`` to shutdown the jupyter notebook server
 
 ### Convert a jupyter notebook to pdf: in shell, type
   ```
