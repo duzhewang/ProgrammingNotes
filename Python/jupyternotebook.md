@@ -30,6 +30,8 @@ Sometimes, when opening jupyter notebook on Github, it shows something went wron
 ```
 **Note: no white space between package names.** 
 
+- See more details from this link: https://github.com/rasbt/watermark/blob/master/docs/watermark.ipynb
+
 
 ### Shortcuts
 
