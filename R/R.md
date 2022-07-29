@@ -27,5 +27,12 @@ print(ip, row.names=FALSE)
   ```
   write(result, stdout())
   ```  
-- `sprintf`
-  
+- `sprintf`:
+   ```
+   sprintf("%s%d", "M", 1:3)
+   [1] "M1" "M2" "M3"
+   ```
+ 
+- Long (wide) format to wide (long) format
+  - https://cran.r-project.org/web/packages/data.table/vignettes/datatable-reshape.html
+  - http://www.cookbook-r.com/Manipulating_data/Converting_data_between_wide_and_long_format/
