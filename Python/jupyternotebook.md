@@ -39,6 +39,8 @@ Sometimes, when opening jupyter notebook on Github, it shows something went wron
 - ``shift+return: run cell, select below``
 - ``control+return: run selected cell``
 - delete the cell: ``dd``
+- change the cell to markdown by hitting ``m`` key
+- change the cell to code by hitting ``y`` key
 
 
 ### Convert a jupyter notebook to pdf: in shell, type
