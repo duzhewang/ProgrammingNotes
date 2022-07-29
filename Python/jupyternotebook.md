@@ -1,5 +1,5 @@
 # Jupyter notebook notes
-Last updated date: 1/9/2022
+Last updated date: 7/28/2022
 
 
 ### Install Jupyter notebook
@@ -8,8 +8,8 @@ Last updated date: 1/9/2022
 python3 -m pip install jupyter notebook
 ```
 
-### Open Jupyter notebook
-  - step 1: change the working directory
+### Open Jupyter notebook in terminal 
+  - step 1: change the working directory to the one which will be used 
   ```
   cd workingdirectory
   ```
@@ -19,7 +19,7 @@ python3 -m pip install jupyter notebook
   jupyter notebook
   ```
 ### nbviewer
-Sometimes, when opening jupyter notebook on Github, it shows something went wrong. That is, the notebook rendering on Github is having some hiccups. Instead, we can cope and paster the notebook link to https://nbviewer.jupyter.org/.   
+Sometimes, when opening jupyter notebook on Github, it shows something went wrong. That is, the notebook rendering on Github is having some hiccups. Instead, we can copy and paster the notebook link to https://nbviewer.jupyter.org/.   
 
 
 ### Add date, author name in jupyter notebook
