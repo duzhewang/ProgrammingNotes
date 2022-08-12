@@ -1,5 +1,5 @@
 # Jupyter notebook notes
-Last updated date: 7/28/2022
+Last updated date: 8/11/2022
 
 
 ### Install Jupyter notebook
