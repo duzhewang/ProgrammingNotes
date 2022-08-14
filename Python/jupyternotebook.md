@@ -65,4 +65,5 @@ Image(filename = "img.png", width = 600, height = 300)
 - After creating the jupyter notebook, in terminal, use ``jupyter nbconvert --to html --template pj PATH/TO/YOUR/JUPYTER/NOTEBOOK``
 - See demo from https://github.com/JanPalasek/pretty-jupyter-examples/tree/main/demo
 - How to override the default title?
-  - In the `Edit` tab in the notebook, click `Edit Notebook Metadata`   
+  - In the `Edit` tab in the notebook, click `Edit Notebook Metadata`. Then type `"title": "New title"`.
+  
