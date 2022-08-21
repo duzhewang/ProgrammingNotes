@@ -67,3 +67,7 @@ Image(filename = "img.png", width = 600, height = 300)
 - How to override the default title?
   - In the `Edit` tab in the notebook, click `Edit Notebook Metadata`. Then type `"title": "New title"`.
   
+## Opening a .ipynb.txt File
+- https://stackoverflow.com/questions/35324503/opening-a-ipynb-txt-file
+
+
