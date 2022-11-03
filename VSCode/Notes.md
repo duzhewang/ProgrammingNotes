@@ -14,5 +14,7 @@ source .venv/bin/activate
 
 - Type `deactivate` in the terminal window to deactivate the virtual environment
 
+## convert jupyter notebook to python file 
 
+- In VSCode command palette (shift+command+P), select `Jupyter: Convert to Python Script`
 
