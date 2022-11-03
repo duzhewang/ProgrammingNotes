@@ -18,3 +18,6 @@ source .venv/bin/activate
 
 - In VSCode command palette (shift+command+P), select `Jupyter: Convert to Python Script`
 
+## Open VSCode for a folder
+
+- First change the working directory to that folder in terminal, then type `code .` in terminal
