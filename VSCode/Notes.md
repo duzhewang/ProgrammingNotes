@@ -23,4 +23,6 @@ source .venv/bin/activate
 - First change the working directory to that folder in terminal, then type `code .` in terminal
 
 
-- 
+## `Python: Select Interpretor`
+
+- This one is used for `.py` file 
