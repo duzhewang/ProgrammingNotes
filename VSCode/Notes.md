@@ -25,4 +25,5 @@ source .venv/bin/activate
 
 ## `Python: Select Interpretor`
 
-- This one is used for `.py` file 
+- This one is used for `.py` file to select the python environment 
+- For `ipynb`, use the button in the right upper corner to change the kernel
