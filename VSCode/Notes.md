@@ -21,3 +21,6 @@ source .venv/bin/activate
 ## Open VSCode for a folder
 
 - First change the working directory to that folder in terminal, then type `code .` in terminal
+
+
+- 
