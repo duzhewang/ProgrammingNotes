@@ -22,6 +22,8 @@ source .venv/bin/activate
 
 - First change the working directory to that folder in terminal, then type `code .` in terminal
 
+- In case the above does not work, see the solution here: https://stackoverflow.com/questions/29955500/code-is-not-working-in-on-the-command-line-for-visual-studio-code-on-os-x-ma
+
 
 ## `Python: Select Interpretor`
 

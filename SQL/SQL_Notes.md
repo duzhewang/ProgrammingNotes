@@ -1,10 +1,12 @@
-Last updated date: 12/18/2021
+Last updated date: 02/18/2023
 
 
-# Link
+# Tutorial link
 - https://www.w3schools.com/sql/default.asp
 
 # SQL syntax
+- SQL is a standard language for storing, manipulating and retrieving data in databases
+- SQL: structured query language
 
 - Database Tables: A database most often contains one or more tables. Each table is identified by a name. Tables contain records (rows) with data.
 
@@ -126,6 +128,16 @@ BETWEEN	Between a certain range
 LIKE	Search for a pattern
 IN	To specify multiple possible values for a column
 ```
+
+For example,
+
+```
+Select * from Customers
+where City IN ('Paris', 'London'); 
+```
+
+
+
 
 # The SQL AND, OR and NOT Operators
 
